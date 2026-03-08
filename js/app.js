@@ -18,7 +18,7 @@ const tokenize = (text) => {
 };
 
 const loadIndex = () =>
-  fetch("data/search-index.json")
+  fetch("/data/search-index.json")
     .then(res => (res.ok ? res.json() : null))
     .catch(() => null);
 
@@ -41,7 +41,7 @@ const escapeHtml = (value = "") =>
     .replace(/'/g, "&#39;");
 
 Promise.all([
-  fetch("data/stories.json").then(res => res.json()),
+  fetch("/data/stories.json").then(res => res.json()),
   loadIndex()
 ]).then(([stories]) => {
     const container = document.getElementById("stories");
@@ -270,4 +270,5 @@ Promise.all([
       });
     }
   });
+
 

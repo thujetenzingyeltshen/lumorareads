@@ -20,7 +20,7 @@ const estimateReadTime = (story) => {
   return `${minutes} min read`;
 };
 
-fetch("data/stories.json")
+fetch("/data/stories.json")
   .then(res => res.json())
   .then(stories => {
     const container = document.getElementById("savedStories");
@@ -70,4 +70,5 @@ fetch("data/stories.json")
 
     render();
   });
+
 

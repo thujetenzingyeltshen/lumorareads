@@ -28,7 +28,7 @@ if (storyEl) {
   `;
 }
 
-fetch("data/stories.json")
+fetch("/data/stories.json")
   .then(res => res.json())
   .then(stories => {
     const story = stories.find(s => s.id === id);
@@ -174,4 +174,5 @@ fetch("data/stories.json")
       window.addEventListener("resize", updateProgress);
     }
   });
+
 
