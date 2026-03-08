@@ -103,7 +103,10 @@ Promise.all([
         if (!tokens.length) {
           queryOk = haystack.includes(query);
         } else if (searchIndex && searchIndex.tokens) {
-          queryOk = tokens.every(token => (searchIndex.tokens[token] || []).includes(story.id));
+          queryOk = tokens.every(token => {
+            const ids = searchIndex.tokens[token] || [];
+            return ids.includes(story.id) || haystack.includes(token);
+          });
         } else {
           queryOk = tokens.every(token => haystack.includes(token));
         }
