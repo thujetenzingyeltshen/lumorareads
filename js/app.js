@@ -14,7 +14,7 @@ const tokenize = (text) => {
     .replace(/[^a-z0-9]+/g, " ")
     .trim()
     .split(/\s+/)
-    .filter(token => token.length > 1);
+    .filter(Boolean);
 };
 
 const loadIndex = () =>
@@ -45,6 +45,7 @@ Promise.all([
     const searchBar = document.querySelector(".search-nav");
     const savedKey = "lumoraSaved";
     const saved = new Set(JSON.parse(localStorage.getItem(savedKey) || "[]"));
+    if (!container) return;
 
     let activeTag = "All";
     let query = "";
@@ -74,6 +75,7 @@ Promise.all([
     };
 
     const renderFilters = () => {
+      if (!filtersEl) return;
       const tags = ["All", "Saved", ...allTags];
       filtersEl.innerHTML = tags.map(tag => `
         <button class="chip ${tag === activeTag ? "active" : ""}" data-tag="${tag}">
@@ -148,7 +150,7 @@ Promise.all([
       }
     };
 
-    if (container) renderLoading(container);
+    renderLoading(container);
     renderFilters();
     update();
 
@@ -160,13 +162,15 @@ Promise.all([
       });
     }
 
-    filtersEl.addEventListener("click", (e) => {
-      const btn = e.target.closest("[data-tag]");
-      if (!btn) return;
-      activeTag = btn.dataset.tag;
-      renderFilters();
-      update();
-    });
+    if (filtersEl) {
+      filtersEl.addEventListener("click", (e) => {
+        const btn = e.target.closest("[data-tag]");
+        if (!btn) return;
+        activeTag = btn.dataset.tag;
+        renderFilters();
+        update();
+      });
+    }
 
     container.addEventListener("click", (e) => {
       const btn = e.target.closest(".bookmark-btn");
@@ -186,9 +190,12 @@ Promise.all([
     });
 
     if (searchInput) {
-      searchInput.addEventListener("input", (e) => {
-        query = e.target.value.trim().toLowerCase();
+      const onSearchInput = (e) => {
+        query = (e.target.value || "").trim().toLowerCase();
         update();
+      };
+      ["input", "keyup", "search", "change"].forEach((evt) => {
+        searchInput.addEventListener(evt, onSearchInput);
       });
     }
 
