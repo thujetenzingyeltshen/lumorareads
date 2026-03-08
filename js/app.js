@@ -32,6 +32,14 @@ const renderLoading = (container) => {
   `).join("");
 };
 
+const escapeHtml = (value = "") =>
+  value
+    .replaceAll("&", "&amp;")
+    .replaceAll("<", "&lt;")
+    .replaceAll(">", "&gt;")
+    .replaceAll('"', "&quot;")
+    .replaceAll("'", "&#39;");
+
 Promise.all([
   fetch("data/stories.json").then(res => res.json()),
   loadIndex()
@@ -41,6 +49,7 @@ Promise.all([
     const filtersEl = document.getElementById("storyFilters");
     const emptyEl = document.getElementById("storiesEmpty");
     const statusEl = document.getElementById("storiesStatus");
+    const searchResultsEl = document.getElementById("searchResults");
     const searchToggle = document.querySelector(".search-toggle");
     const searchBar = document.querySelector(".search-nav");
     const savedKey = "lumoraSaved";
@@ -95,6 +104,14 @@ Promise.all([
       ].join(" ").toLowerCase()])
     );
 
+    const storyRawText = new Map(
+      stories.map(story => [story.id, [
+        story.title,
+        story.summary,
+        ...(story.content || [])
+      ].join(" ")])
+    );
+
     const matches = (story) => {
       const haystack = storySearchText.get(story.id) || "";
       const tagOk = activeTag === "All" ||
@@ -139,9 +156,46 @@ Promise.all([
       `).join("");
     };
 
+    const renderSearchResults = () => {
+      if (!searchResultsEl) return;
+      const tokens = tokenize(query);
+      if (!tokens.length) {
+        searchResultsEl.hidden = true;
+        searchResultsEl.innerHTML = "";
+        return;
+      }
+
+      const ranked = stories.filter((story) => {
+        const haystack = storySearchText.get(story.id) || "";
+        return tokens.every(token => haystack.includes(token));
+      }).slice(0, 6);
+
+      if (!ranked.length) {
+        searchResultsEl.innerHTML = `<p class="search-result-empty">No matching stories.</p>`;
+        searchResultsEl.hidden = false;
+        return;
+      }
+
+      searchResultsEl.innerHTML = ranked.map((story) => {
+        const raw = storyRawText.get(story.id) || "";
+        const lower = raw.toLowerCase();
+        const firstToken = tokens[0];
+        const startAt = Math.max(0, lower.indexOf(firstToken) - 30);
+        const snippet = raw.slice(startAt, startAt + 140).trim();
+        return `
+          <a class="search-result-item" href="story.html?id=${story.id}">
+            <span class="search-result-title">${escapeHtml(story.title)}</span>
+            <span class="search-result-snippet">${escapeHtml(snippet)}...</span>
+          </a>
+        `;
+      }).join("");
+      searchResultsEl.hidden = false;
+    };
+
     const update = () => {
       const filtered = stories.filter(matches);
       renderStories(filtered);
+      renderSearchResults();
       if (emptyEl) {
         emptyEl.style.display = filtered.length ? "none" : "block";
       }
@@ -158,6 +212,9 @@ Promise.all([
       searchToggle.addEventListener("click", () => {
         const isOpen = searchBar.classList.toggle("is-open");
         searchToggle.setAttribute("aria-expanded", String(isOpen));
+        if (!isOpen && searchResultsEl) {
+          searchResultsEl.hidden = true;
+        }
         if (isOpen) searchInput.focus();
       });
     }
@@ -198,6 +255,12 @@ Promise.all([
         searchInput.addEventListener(evt, onSearchInput);
       });
     }
+
+    document.addEventListener("click", (e) => {
+      if (!searchResultsEl || !searchInput) return;
+      if (e.target.closest(".search-wrap")) return;
+      searchResultsEl.hidden = true;
+    });
 
     const subscribeForm = document.getElementById("subscribeForm");
     if (subscribeForm) {
