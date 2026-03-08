@@ -5,27 +5,27 @@
     <lastmod>2026-02-11</lastmod>
   </url>
   <url>
-    <loc>https://your-domain.com/about.html</loc>
+    <loc>https://your-domain.com/about/</loc>
     <lastmod>2026-02-11</lastmod>
   </url>
   <url>
-    <loc>https://your-domain.com/saved.html</loc>
+    <loc>https://your-domain.com/saved/</loc>
     <lastmod>2026-02-11</lastmod>
   </url>
   <url>
-    <loc>https://your-domain.com/story.html</loc>
+    <loc>https://your-domain.com/story/</loc>
     <lastmod>2026-02-11</lastmod>
   </url>
   <url>
-    <loc>https://your-domain.com/submit.html</loc>
+    <loc>https://your-domain.com/submit/</loc>
     <lastmod>2026-02-11</lastmod>
   </url>
   <url>
-    <loc>https://your-domain.com/privacy.html</loc>
+    <loc>https://your-domain.com/privacy/</loc>
     <lastmod>2026-02-11</lastmod>
   </url>
   <url>
-    <loc>https://your-domain.com/thankyou.html</loc>
+    <loc>https://your-domain.com/thankyou/</loc>
     <lastmod>2026-02-11</lastmod>
   </url>
   <url>
@@ -33,7 +33,8 @@
     <lastmod>2026-02-11</lastmod>
   </url>
   <url>
-    <loc>https://your-domain.com/story.html?id=the-boy-who-flew-too-close</loc>
+    <loc>https://your-domain.com/story/?id=the-boy-who-flew-too-close</loc>
     <lastmod>2026-02-11</lastmod>
   </url>
 </urlset>
+

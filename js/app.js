@@ -142,10 +142,10 @@ Promise.all([
           ${renderCardPhoto(s)}
           <div class="card-copy">
             <h2>
-              <a href="story.html?id=${s.id}">${s.title}</a>
+              <a href="/story/?id=${s.id}">${s.title}</a>
             </h2>
             <p>${s.summary}</p>
-            <a class="card-link" href="story.html?id=${s.id}">Read story</a>
+            <a class="card-link" href="/story/?id=${s.id}">Read story</a>
           </div>
         </div>
       </article>
@@ -174,7 +174,7 @@ Promise.all([
 
       searchResultsEl.innerHTML = ranked.map((story) => {
         return `
-          <a class="search-result-item" href="story.html?id=${story.id}">
+          <a class="search-result-item" href="/story/?id=${story.id}">
             <span class="search-result-title">${escapeHtml(story.title)}</span>
           </a>
         `;
@@ -270,3 +270,4 @@ Promise.all([
       });
     }
   });
+

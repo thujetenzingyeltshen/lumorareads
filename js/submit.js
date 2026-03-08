@@ -7,7 +7,7 @@
   const endpoint = "https://formsubmit.co/ajax/lumora.micro@gmail.com";
   const nextInput = form.querySelector("input[name='_next']");
   if (nextInput) {
-    nextInput.value = `${window.location.origin}/thankyou.html`;
+    nextInput.value = `${window.location.origin}//thankyou/`;
   }
 
   form.addEventListener("submit", async (e) => {
@@ -35,7 +35,7 @@
         throw new Error(`Submit failed with status ${res.status}`);
       }
 
-      window.location.href = "thankyou.html";
+      window.location.href = "/thankyou/";
     } catch (err) {
       // Fallback: force native form POST if AJAX path fails.
       form.method = "POST";
@@ -44,3 +44,4 @@
     }
   });
 })();
+

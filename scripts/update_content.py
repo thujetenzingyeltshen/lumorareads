@@ -96,7 +96,7 @@ def update_index_html(stories, latest):
     html = index_path.read_text(encoding="utf-8")
 
     todays_pick = (
-        f'<a class="btn ghost" href="story.html?id={latest["id"]}">Read today\'s pick</a>'
+        f'<a class="btn ghost" href="/story/?id={latest["id"]}">Read today\'s pick</a>'
     )
     html = replace_block(
         html,
@@ -140,16 +140,16 @@ def update_sitemap(stories, base_url):
 
     static_pages = [
         "/",
-        "/about.html",
-        "/saved.html",
-        "/story.html",
-        "/submit.html",
-        "/privacy.html",
-        "/thankyou.html",
+        "/about/",
+        "/saved/",
+        "/story/",
+        "/submit/",
+        "/privacy/",
+        "/thankyou/",
         "/404.html"
     ]
 
-    story_pages = [f"/story.html?id={story.get('id')}" for story in stories]
+    story_pages = [f"/story/?id={story.get('id')}" for story in stories]
 
     urls = static_pages + story_pages
 
@@ -229,3 +229,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

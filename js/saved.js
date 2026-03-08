@@ -47,10 +47,10 @@ fetch("data/stories.json")
             </div>
           </div>
           <h2>
-            <a href="story.html?id=${s.id}">${s.title}</a>
+            <a href="/story/?id=${s.id}">${s.title}</a>
           </h2>
           <p>${s.summary}</p>
-          <a class="card-link" href="story.html?id=${s.id}">Read story</a>
+          <a class="card-link" href="/story/?id=${s.id}">Read story</a>
         </article>
       `).join("");
 
@@ -70,3 +70,4 @@ fetch("data/stories.json")
 
     render();
   });
+

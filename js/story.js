@@ -174,3 +174,4 @@ fetch("data/stories.json")
       window.addEventListener("resize", updateProgress);
     }
   });
+
