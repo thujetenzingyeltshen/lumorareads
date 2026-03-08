@@ -104,14 +104,6 @@ Promise.all([
       ].join(" ").toLowerCase()])
     );
 
-    const storyRawText = new Map(
-      stories.map(story => [story.id, [
-        story.title,
-        story.summary,
-        ...(story.content || [])
-      ].join(" ")])
-    );
-
     const matches = (story) => {
       const haystack = storySearchText.get(story.id) || "";
       const tagOk = activeTag === "All" ||
@@ -177,15 +169,9 @@ Promise.all([
       }
 
       searchResultsEl.innerHTML = ranked.map((story) => {
-        const raw = storyRawText.get(story.id) || "";
-        const lower = raw.toLowerCase();
-        const firstToken = tokens[0];
-        const startAt = Math.max(0, lower.indexOf(firstToken) - 30);
-        const snippet = raw.slice(startAt, startAt + 140).trim();
         return `
           <a class="search-result-item" href="story.html?id=${story.id}">
             <span class="search-result-title">${escapeHtml(story.title)}</span>
-            <span class="search-result-snippet">${escapeHtml(snippet)}...</span>
           </a>
         `;
       }).join("");

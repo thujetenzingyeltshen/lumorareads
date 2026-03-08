@@ -1184,8 +1184,8 @@ input:focus-visible,
   position: absolute;
   top: calc(100% + 10px);
   left: 0;
-  width: min(540px, calc(100vw - 32px));
-  max-height: 360px;
+  width: min(360px, calc(100vw - 32px));
+  max-height: 220px;
   overflow: auto;
   z-index: 30;
   border: 1px solid var(--border);
@@ -1197,15 +1197,18 @@ input:focus-visible,
   gap: 8px;
 }
 
+.search-results[hidden]{
+  display: none !important;
+}
+
 .theme-evening .search-results{
   background: rgba(36,29,25,0.98);
   border-color: var(--border);
 }
 
 .search-result-item{
-  display: grid;
-  gap: 4px;
-  padding: 10px 12px;
+  display: block;
+  padding: 8px 10px;
   border-radius: 10px;
   border: 1px solid transparent;
 }
@@ -1217,8 +1220,12 @@ input:focus-visible,
 
 .search-result-title{
   font-family: "Fraunces", "Georgia", serif;
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 1.35;
   color: var(--bg-ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .search-result-snippet{
@@ -2000,8 +2007,8 @@ hr{
   }
   .nav-cta{ padding: 8px 14px; }
   .search-results{
-    width: calc(100vw - 32px);
-    left: -54px;
+    width: min(320px, calc(100vw - 24px));
+    left: -8px;
   }
   .hero-content h1{ font-size: 34px; }
   .hero-actions{
