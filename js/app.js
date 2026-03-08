@@ -81,29 +81,32 @@ Promise.all([
       `).join("");
     };
 
-    const matches = (story) => {
-      const haystack = [
+    const storySearchText = new Map(
+      stories.map(story => [story.id, [
         story.title,
         story.summary,
-        ...(story.tags || [])
-      ].join(" ").toLowerCase();
+        ...(story.tags || []),
+        ...(story.content || []),
+        ...(story.lesson ? [story.lesson] : []),
+        ...(story.actionStep ? [story.actionStep] : [])
+      ].join(" ").toLowerCase()])
+    );
+
+    const matches = (story) => {
+      const haystack = storySearchText.get(story.id) || "";
       const tagOk = activeTag === "All" ||
         (activeTag === "Saved" && saved.has(story.id)) ||
         (story.tags || []).includes(activeTag);
       let queryOk = true;
       if (query) {
         const tokens = tokenize(query);
-        if (searchIndex && searchIndex.tokens && tokens.length) {
-          let ids = null;
-          for (const token of tokens) {
-            const list = searchIndex.tokens[token] || [];
-            const set = new Set(list);
-            ids = ids ? new Set([...ids].filter(id => set.has(id))) : set;
-            if (ids.size === 0) break;
-          }
-          if (ids && !ids.has(story.id)) return false;
+        if (!tokens.length) {
+          queryOk = haystack.includes(query);
+        } else if (searchIndex && searchIndex.tokens) {
+          queryOk = tokens.every(token => (searchIndex.tokens[token] || []).includes(story.id));
+        } else {
+          queryOk = tokens.every(token => haystack.includes(token));
         }
-        queryOk = haystack.includes(query);
       }
       return tagOk && queryOk;
     };
