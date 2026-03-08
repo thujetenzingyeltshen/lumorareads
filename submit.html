@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <title>Submit a Story | Lumora</title>
+  <script>
+    (function () {
+      try {
+        if (localStorage.getItem("lumoraTheme") === "evening") {
+          document.documentElement.classList.add("theme-evening");
+        }
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="page story-layout">
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <a class="brand brand-wordmark" href="index.html">
+          <div class="brand-name">Lumora</div>
+        </a>
+        <nav class="nav">
+          <a href="index.html#stories-section">Explore</a>
+          <a href="about.html">About</a>
+          <a href="saved.html">Saved</a>
+          <button class="theme-toggle" type="button" aria-label="Toggle evening theme" aria-pressed="false">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3a7 7 0 1 0 11.5 11.5z"/>
+            </svg>
+          </button>
+          <a class="nav-cta" href="submit.html">Submit a Story</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container submit-page">
+      <section class="submit-card">
+        <div class="submit-hero">
+          <p class="policy-eyebrow">Submit a Story</p>
+          <h1>Submit a Story</h1>
+          <p class="policy-intro">Share a short, meaningful story that offers clarity, momentum, or calm. We read every submission.</p>
+        </div>
+
+        <form id="submitForm" class="submit-form" action="https://formsubmit.co/lumora.micro@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="New story submission - Lumora">
+          <input type="hidden" name="_autoresponse" value="Thanks for submitting your story to Lumora. We read every submission and will be in touch if it’s a fit.">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="thankyou.html">
+          <input type="text" name="_honey" style="display:none">
+          <label class="field">
+            <span>Name</span>
+            <input type="text" name="name" placeholder="Your name" required>
+          </label>
+          <label class="field">
+            <span>Email</span>
+            <input type="email" name="email" placeholder="you@example.com" required>
+          </label>
+          <label class="field">
+            <span>Story</span>
+            <textarea name="story" rows="7" placeholder="Write your story here..." required></textarea>
+          </label>
+          <button class="btn primary" type="submit">Send story</button>
+          <p id="submitStatus" class="submit-status" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <span class="footer-logo-wrap">
+            <img class="footer-logo" src="lumoranew.png" alt="">
+          </span>
+          <p>Short stories for clarity and steady growth.</p>
+        </div>
+        <div class="footer-links">
+          <a href="about.html">About</a>
+          <a href="index.html#stories-section">Stories</a>
+          <a href="saved.html">Saved</a>
+          <a href="submit.html">Submit a Story</a>
+          <a href="privacy.html">Privacy Policy</a>
+        </div>
+        <div class="footer-social">
+          <a href="#" aria-label="GitHub" class="social-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.1.68-.22.68-.48v-1.7c-2.77.6-3.36-1.2-3.36-1.2-.45-1.15-1.1-1.46-1.1-1.46-.9-.62.07-.61.07-.61 1 .07 1.52 1.02 1.52 1.02.9 1.53 2.36 1.09 2.94.83.09-.65.35-1.09.64-1.34-2.21-.25-4.54-1.1-4.54-4.91 0-1.09.39-1.98 1.02-2.68-.1-.25-.44-1.27.1-2.65 0 0 .84-.27 2.75 1.02A9.5 9.5 0 0 1 12 6.8c.85 0 1.7.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.54 1.38.2 2.4.1 2.65.63.7 1.02 1.59 1.02 2.68 0 3.82-2.33 4.65-4.55 4.9.36.31.68.92.68 1.86v2.76c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/>
+            </svg>
+          </a>
+          <a href="#" aria-label="Twitter" class="social-icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M18.9 3h2.8l-6.2 7.1 7.2 10.9h-5.6l-4.4-6.4-5.6 6.4H4.3l6.7-7.6L4 3h5.7l4 5.9L18.9 3zm-1 16.3h1.5L8.9 4.6H7.3l10.6 14.7z"/>
+            </svg>
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=lumora.micro@gmail.com" aria-label="Email" class="social-icon" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M4 5h16a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2zm0 2 8 5 8-5H4zm0 10h16V9l-8 5-8-5v8z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-bottom">© 2026 Lumora. Built for thoughtful reading.</div>
+    </footer>
+  </div>
+  <script defer src="js/theme.js"></script>
+  <script defer src="js/submit.js"></script>
+  <script defer src="js/sw-register.js"></script>
+</body>
+</html>
