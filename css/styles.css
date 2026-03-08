@@ -26,6 +26,11 @@
 
 *{ box-sizing: border-box; }
 
+html, body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 body{
   margin: 0;
   font-family: "Manrope", "Segoe UI", sans-serif;
@@ -248,9 +253,10 @@ input:focus-visible,
 
 .brand-wordmark .brand-name{
   font-family: "Cinzel", "Fraunces", "Georgia", serif;
-  font-size: 88px;
+  font-size: clamp(44px, 9vw, 88px);
   letter-spacing: 1px;
   font-weight: 600;
+  line-height: 0.95;
   background: linear-gradient(120deg, #b86a34, #d8732e 55%, #e9b55b);
   -webkit-background-clip: text;
   background-clip: text;
@@ -1861,6 +1867,9 @@ hr{
 }
 
 @media (max-width: 920px){
+  .container{
+    padding: 0 20px;
+  }
   .library-head{
     flex-direction: column;
     align-items: flex-start;
@@ -1882,7 +1891,9 @@ hr{
     align-items: flex-start;
   }
   .nav{
+    width: 100%;
     flex-wrap: wrap;
+    gap: 12px 14px;
   }
   .theme-toggle{
     margin-right: 0;
@@ -1917,9 +1928,33 @@ hr{
 }
 
 @media (max-width: 520px){
-  .hero-content h1{ font-size: 38px; }
-  .hero-logo{ width: 300px; height: 300px; }
-  .hero-orbit{ width: 290px; height: 290px; }
+  .container{ padding: 0 16px; }
+  .topbar{ padding: 18px 0 8px; }
+  .topbar-inner{ gap: 14px; }
+  .brand-wordmark .brand-name{ font-size: clamp(40px, 16vw, 56px); }
+  .nav{
+    font-size: 12px;
+    letter-spacing: 0.7px;
+    gap: 10px 12px;
+  }
+  .nav-cta{ padding: 8px 14px; }
+  .hero-content h1{ font-size: 34px; }
+  .hero-actions{
+    width: 100%;
+    gap: 10px;
+  }
+  .hero-actions .btn{
+    width: 100%;
+  }
+  .hero-visual{ min-height: 0; }
+  .hero-logo{
+    width: min(280px, 82vw);
+    height: min(280px, 82vw);
+  }
+  .hero-orbit{
+    width: min(268px, 78vw);
+    height: min(268px, 78vw);
+  }
   .about-card{
     padding: 32px 24px 36px;
   }
