@@ -35,11 +35,12 @@ const renderLoading = (container) => {
 Promise.all([
   fetch("data/stories.json").then(res => res.json()),
   loadIndex()
-]).then(([stories, searchIndex]) => {
+]).then(([stories]) => {
     const container = document.getElementById("stories");
     const searchInput = document.getElementById("storySearch");
     const filtersEl = document.getElementById("storyFilters");
     const emptyEl = document.getElementById("storiesEmpty");
+    const statusEl = document.getElementById("storiesStatus");
     const searchToggle = document.querySelector(".search-toggle");
     const searchBar = document.querySelector(".search-nav");
     const savedKey = "lumoraSaved";
@@ -102,11 +103,6 @@ Promise.all([
         const tokens = tokenize(query);
         if (!tokens.length) {
           queryOk = haystack.includes(query);
-        } else if (searchIndex && searchIndex.tokens) {
-          queryOk = tokens.every(token => {
-            const ids = searchIndex.tokens[token] || [];
-            return ids.includes(story.id) || haystack.includes(token);
-          });
         } else {
           queryOk = tokens.every(token => haystack.includes(token));
         }
@@ -146,6 +142,9 @@ Promise.all([
       renderStories(filtered);
       if (emptyEl) {
         emptyEl.style.display = filtered.length ? "none" : "block";
+      }
+      if (statusEl) {
+        statusEl.textContent = `Showing ${filtered.length} of ${stories.length} stories`;
       }
     };
 

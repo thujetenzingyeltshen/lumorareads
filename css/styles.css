@@ -1229,6 +1229,12 @@ input:focus-visible,
   font-size: 14px;
 }
 
+.stories-status{
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .card{
   background: var(--card);
   border: 1px solid var(--border);
