@@ -4,6 +4,11 @@
   if (!form || !status) return;
 
   const submitBtn = form.querySelector("button[type='submit']");
+  const endpoint = "https://formsubmit.co/ajax/lumora.micro@gmail.com";
+  const nextInput = form.querySelector("input[name='_next']");
+  if (nextInput) {
+    nextInput.value = `${window.location.origin}/thankyou.html`;
+  }
 
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
@@ -16,11 +21,12 @@
     if (submitBtn) submitBtn.disabled = true;
 
     try {
-      const payload = new FormData(form);
-      const res = await fetch(form.action, {
+      const payload = Object.fromEntries(new FormData(form).entries());
+      const res = await fetch(endpoint, {
         method: "POST",
-        body: payload,
+        body: JSON.stringify(payload),
         headers: {
+          "Content-Type": "application/json",
           Accept: "application/json"
         }
       });
@@ -31,8 +37,10 @@
 
       window.location.href = "thankyou.html";
     } catch (err) {
-      status.textContent = "Submission failed. Please try again.";
-      if (submitBtn) submitBtn.disabled = false;
+      // Fallback: force native form POST if AJAX path fails.
+      form.method = "POST";
+      form.action = "https://formsubmit.co/lumora.micro@gmail.com";
+      form.submit();
     }
   });
 })();
