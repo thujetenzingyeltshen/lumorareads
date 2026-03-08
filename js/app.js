@@ -78,9 +78,9 @@ Promise.all([
     const renderCardPhoto = (story) => {
       const src = (story.photo || "").trim();
       if (!src) {
-        return `<span class="card-photo is-empty" aria-hidden="true"></span>`;
+        return `<span class="card-media is-empty" aria-hidden="true"></span>`;
       }
-      return `<img class="card-photo" src="${src}" alt="" loading="lazy" decoding="async">`;
+      return `<img class="card-media" src="${src}" alt="" loading="lazy" decoding="async">`;
     };
 
     const renderFilters = () => {
@@ -131,7 +131,6 @@ Promise.all([
           <div class="card-actions">
             <span class="card-date">${formatDate(s.date)}</span>
             <span class="card-read">&middot; ${estimateReadTime(s)}</span>
-            ${renderCardPhoto(s)}
             <button class="bookmark-btn ${saved.has(s.id) ? "saved" : ""}" data-id="${s.id}" aria-pressed="${saved.has(s.id)}" title="Save story">
               <svg viewBox="0 0 24 24" aria-hidden="true">
                 <path d="M6 4.75A2.75 2.75 0 0 1 8.75 2h6.5A2.75 2.75 0 0 1 18 4.75V21l-6-3.5L6 21V4.75z"/>
@@ -139,11 +138,16 @@ Promise.all([
             </button>
           </div>
         </div>
-        <h2>
-          <a href="story.html?id=${s.id}">${s.title}</a>
-        </h2>
-        <p>${s.summary}</p>
-        <a class="card-link" href="story.html?id=${s.id}">Read story</a>
+        <div class="card-main">
+          ${renderCardPhoto(s)}
+          <div class="card-copy">
+            <h2>
+              <a href="story.html?id=${s.id}">${s.title}</a>
+            </h2>
+            <p>${s.summary}</p>
+            <a class="card-link" href="story.html?id=${s.id}">Read story</a>
+          </div>
+        </div>
       </article>
       `).join("");
     };
