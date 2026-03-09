@@ -23,6 +23,32 @@ Optional with domain override:
 python scripts/add_story.py --base-url https://your-domain.com
 ```
 
+Optional: send newsletter to subscribers right after publish:
+
+```bash
+python scripts/add_story.py --notify-subscribers
+```
+
+This requires:
+1. A Buttondown account and subscriber list.
+2. Environment variable set before running:
+
+```bash
+set BUTTONDOWN_API_KEY=your_buttondown_api_key
+```
+
+## Automatic On Git Push (GitHub Actions)
+If you want this to happen automatically when you push new stories:
+
+1. In GitHub repo settings, add secret:
+   - Name: `BUTTONDOWN_API_KEY`
+   - Value: your Buttondown API key
+2. Keep using your normal push flow to `main`.
+3. Workflow file already added:
+   - `.github/workflows/send-newsletter.yml`
+
+It triggers only when `data/stories.json` changes on `main`.
+
 ## 2) If you edited stories manually, run automation
 ```bash
 python scripts/update_content.py
@@ -31,6 +57,18 @@ python scripts/update_content.py
 Optional (if your domain is not set in `sitemap.xml` yet):
 ```bash
 python scripts/update_content.py --base-url https://your-domain.com
+```
+
+To send the latest story email manually:
+
+```bash
+python scripts/notify_subscribers.py
+```
+
+To preview before sending:
+
+```bash
+python scripts/notify_subscribers.py --dry-run
 ```
 
 ## 3) Quick visual check

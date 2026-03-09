@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/favicon.png">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <title>Lumora</title>
@@ -133,11 +134,11 @@
               <h2>Get new stories by email</h2>
               <p class="subscribe-subtitle">One short note when a new story is published. No spam.</p>
             </div>
-            <form class="subscribe-form" id="subscribeForm">
+            <form class="subscribe-form" id="subscribeForm" action="#" method="post">
               <label class="sr-only" for="subscribeEmail">Email address</label>
               <input id="subscribeEmail" name="email" type="email" placeholder="Your email" autocomplete="email" required>
               <button class="btn primary" type="submit">Subscribe</button>
-              <p class="subscribe-note" id="subscribeNote" aria-live="polite">We’ll open your email app to confirm.</p>
+              <p class="subscribe-note" id="subscribeNote" aria-live="polite">Mailchimp is connected. A signup popup will handle confirmation.</p>
             </form>
           </div>
         </div>
@@ -199,6 +200,7 @@
   <script defer src="/js/theme.js"></script>
   <script defer src="/js/app.js"></script>
   <script defer src="/js/sw-register.js"></script>
+  <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/1e64e1c0a31cd8bc8cd771883/e2f8313092490e40106ed9889.js");</script>
 </body>
 </html>
 

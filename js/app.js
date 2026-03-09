@@ -256,17 +256,13 @@ Promise.all([
     if (subscribeForm) {
       subscribeForm.addEventListener("submit", (e) => {
         e.preventDefault();
-        const emailInput = document.getElementById("subscribeEmail");
         const note = document.getElementById("subscribeNote");
-        const email = emailInput ? emailInput.value.trim() : "";
-        if (!email) return;
-        const subject = encodeURIComponent("Subscribe to Lumora");
-        const body = encodeURIComponent(`Please subscribe me with this email: ${email}`);
-        window.location.href = `mailto:lumora.micro@gmail.com?subject=${subject}&body=${body}`;
-        if (note) {
-          note.textContent = "Email app opened. Send to confirm your subscription.";
+        const mailchimpLoaded = !!document.getElementById("mcjs") || !!window._mcq;
+        if (note && mailchimpLoaded) {
+          note.textContent = "Mailchimp connected. Complete signup in the popup/widget.";
+        } else if (note) {
+          note.textContent = "Mailchimp script is still loading. Refresh and try again.";
         }
-        subscribeForm.reset();
       });
     }
   });
