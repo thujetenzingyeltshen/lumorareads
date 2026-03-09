@@ -254,10 +254,9 @@ Promise.all([
 
     const subscribeForm = document.getElementById("subscribeForm");
     if (subscribeForm) {
-      subscribeForm.addEventListener("submit", (e) => {
-        e.preventDefault();
+      subscribeForm.addEventListener("submit", () => {
         const note = document.getElementById("subscribeNote");
-        if (note) note.textContent = "Subscribe is currently unavailable.";
+        if (note) note.textContent = "Opening Mailchimp confirmation in a new tab...";
       });
     }
   });
