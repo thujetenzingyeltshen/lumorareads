@@ -257,12 +257,7 @@ Promise.all([
       subscribeForm.addEventListener("submit", (e) => {
         e.preventDefault();
         const note = document.getElementById("subscribeNote");
-        const mailchimpLoaded = !!document.getElementById("mcjs") || !!window._mcq;
-        if (note && mailchimpLoaded) {
-          note.textContent = "Mailchimp connected. Complete signup in the popup/widget.";
-        } else if (note) {
-          note.textContent = "Mailchimp script is still loading. Refresh and try again.";
-        }
+        if (note) note.textContent = "Subscribe is currently unavailable.";
       });
     }
   });
