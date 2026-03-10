@@ -256,7 +256,7 @@ Promise.all([
     if (subscribeForm) {
       subscribeForm.addEventListener("submit", () => {
         const note = document.getElementById("subscribeNote");
-        if (note) note.textContent = "Opening Mailchimp confirmation in a new tab...";
+        if (note) note.textContent = "Opening subscription confirmation in a new tab...";
       });
     }
   });
