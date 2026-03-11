@@ -1,5 +1,39 @@
 [
   {
+    "id": "the-lantern-in-the-storm",
+    "title": "The Lantern in the Storm",
+    "date": "2026-03-11",
+    "tags": [
+      "kindness",
+      "hope"
+    ],
+    "summary": "A small light, kept faithfully, can save someone when they are most lost.",
+    "photo": "stories image/lamp.png",
+    "content": [
+      "In a small mountain village, people feared the long winters. The wind roared through the valleys, and darkness arrived early each evening. When storms came, even the strongest travelers stayed indoors.",
+      "But there was one old man who did something strange every night.",
+      "Just before sunset, he would walk to the edge of the village and hang a small lantern on a wooden post beside the road.",
+      "The villagers often asked him why.",
+      "\"No one travels during storms,\" they said. \"The road is empty.\"",
+      "The old man would simply smile and light the lantern.",
+      "One winter night, a terrible storm struck the mountains. Snow fell so heavily that the paths vanished under white drifts. The wind howled like a wild animal.",
+      "Deep in the darkness, a young traveler struggled along the frozen road. He had lost the path and could barely see his own hands.",
+      "Fear began to creep into his heart.",
+      "Just when he thought he might collapse in the cold, he saw a faint glow in the distance.",
+      "A small lantern flickered beside the road.",
+      "Guided by the light, he slowly found the village.",
+      "The next morning, the traveler knocked on the old man's door.",
+      "\"You saved my life,\" he said. \"Without that lantern, I would have been lost.\"",
+      "The old man smiled gently.",
+      "\"You see,\" he said, \"the lantern is not for the nights when the road is busy.\"",
+      "\"It is for the nights when someone is lost.\"",
+      "And so the villagers learned an important truth:",
+      "Sometimes the smallest light can guide someone through the darkest storm."
+    ],
+    "lesson": "Consistent acts of care matter most when someone is in their darkest moment.",
+    "actionStep": "Do one small, reliable act of kindness this week that could help someone who is struggling."
+  },
+  {
     "id": "the-boy-who-flew-too-close",
     "title": "The Boy Who Flew Too Close",
     "date": "2026-02-11",

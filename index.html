@@ -6,8 +6,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/png" href="/favicon.png">
-  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <title>Lumora</title>
   <script>
@@ -49,7 +49,7 @@
               <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3a7 7 0 1 0 11.5 11.5z"/>
             </svg>
           </button>
-          <a href="#stories-section">Explore</a>
+          <a href="/stories/">Explore</a>
           <a href="/about/">About</a>
           <a href="/saved/">Saved</a>
           <a class="nav-cta" href="/submit/">Submit a Story</a>
@@ -64,9 +64,9 @@
           <h1>Stories that<br>spark growth</h1>
           <p class="subtitle">Read short, inspiring stories. Reflect and take action.</p>
           <div class="hero-actions">
-            <a class="btn primary" href="#stories-section">Explore stories</a>
+            <a class="btn primary" href="/stories/">Explore stories</a>
             <!-- AUTO:TODAYS_PICK_START -->
-            <a class="btn ghost" href="/story/?id=the-boy-who-flew-too-close">Read today's pick</a>
+            <a class="btn ghost" href="/story/?id=the-lantern-in-the-storm">Read today's pick</a>
             <!-- AUTO:TODAYS_PICK_END -->
           </div>
         </div>
@@ -83,14 +83,14 @@
         <!-- AUTO:FEATURED_START -->
         <article class="featured-card">
           <div class="featured-copy">
-            <h3>The Boy Who Flew Too Close</h3>
-            <p>Courage can lift you, but without boundaries, even bold ambition can break.</p>
+            <h3>The Lantern in the Storm</h3>
+            <p>A small light, kept faithfully, can save someone when they are most lost.</p>
             <div class="badges">
-              <span class="badge">Motivation</span>
-        <span class="badge">Discipline</span>
+              <span class="badge">Kindness</span>
+        <span class="badge">Hope</span>
             </div>
           </div>
-          <span class="featured-meta">Read in 1 min</span>
+          <span class="featured-meta">Read in 2 min</span>
         </article>
         <!-- AUTO:FEATURED_END -->
       </section>
@@ -127,19 +127,16 @@
               </div>
             </details>
           </div>
-          <div class="subscribe-card" id="subscribe">
+          <div class="subscribe-card quote-card" id="quoteOfDay">
             <div class="card-glow" aria-hidden="true"></div>
-            <div class="subscribe-copy">
-              <p class="eyebrow">Stay in the loop</p>
-              <h2>Get new stories by email</h2>
-              <p class="subscribe-subtitle">One short note when a new story is published. No spam.</p>
+            <div class="subscribe-copy quote-copy">
+              <p class="eyebrow">Daily reflection</p>
+              <h2>Quote of the Day</h2>
+              <blockquote class="quote-text" id="quoteOfDayText">
+                "Small daily steps create extraordinary journeys."
+              </blockquote>
+              <p class="quote-author" id="quoteOfDayAuthor">- Lumora</p>
             </div>
-            <form class="subscribe-form" id="subscribeForm" action="ff67e4a4-e3f5-4d0b-b5b6-dec6395491bf" method="post" target="_blank">
-              <label class="sr-only" for="subscribeEmail">Email address</label>
-              <input id="subscribeEmail" name="EMAIL" type="email" placeholder="Your email" autocomplete="email" required>
-              <button class="btn primary" type="submit">Subscribe</button>
-              <p class="subscribe-note" id="subscribeNote" aria-live="polite">A confirmation page will open in a new tab.</p>
-            </form>
           </div>
         </div>
       </section>
@@ -170,7 +167,7 @@
         </div>
         <div class="footer-links">
           <a href="/about/">About</a>
-          <a href="#stories-section">Stories</a>
+          <a href="/stories/">Stories</a>
           <a href="/saved/">Saved</a>
           <a href="/submit/">Submit a Story</a>
           <a href="/privacy/">Privacy Policy</a>

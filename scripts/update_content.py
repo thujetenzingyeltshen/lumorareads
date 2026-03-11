@@ -140,6 +140,7 @@ def update_sitemap(stories, base_url):
 
     static_pages = [
         "/",
+        "/stories/",
         "/about/",
         "/saved/",
         "/story/",

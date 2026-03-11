@@ -9,7 +9,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <title>Submit a Story | Lumora</title>
+  <title>Stories | Lumora</title>
   <script>
     (function () {
       try {
@@ -23,55 +23,50 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="page story-layout">
+  <div class="page">
     <header class="topbar">
       <div class="container topbar-inner">
         <a class="brand brand-wordmark" href="/">
           <div class="brand-name">Lumora</div>
         </a>
         <nav class="nav">
-          <a href="/#stories-section">Explore</a>
-          <a href="/about/">About</a>
-          <a href="/saved/">Saved</a>
+          <div class="search-wrap">
+            <button class="search-toggle" type="button" aria-controls="navSearch" aria-expanded="false" aria-label="Open search">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M10.5 3a7.5 7.5 0 1 0 4.64 13.4l4.23 4.23 1.41-1.41-4.23-4.23A7.5 7.5 0 0 0 10.5 3zm0 2a5.5 5.5 0 1 1 0 11 5.5 5.5 0 0 1 0-11z"/>
+              </svg>
+            </button>
+            <label class="search search-nav" id="navSearch">
+              <span class="sr-only">Search stories</span>
+              <input id="storySearch" type="search" placeholder="Search stories">
+            </label>
+            <div id="searchResults" class="search-results" hidden></div>
+          </div>
           <button class="theme-toggle" type="button" aria-label="Toggle evening theme" aria-pressed="false">
             <svg viewBox="0 0 24 24" aria-hidden="true">
               <path d="M21 14.5A8.5 8.5 0 0 1 9.5 3a7 7 0 1 0 11.5 11.5z"/>
             </svg>
           </button>
+          <a href="/stories/">Explore</a>
+          <a href="/about/">About</a>
+          <a href="/saved/">Saved</a>
           <a class="nav-cta" href="/submit/">Submit a Story</a>
         </nav>
       </div>
     </header>
 
-    <main id="main" class="container submit-page">
-      <section class="submit-card">
-        <div class="submit-hero">
-          <p class="policy-eyebrow">Submit a Story</p>
-          <h1>Submit a Story</h1>
-          <p class="policy-intro">Share a short, meaningful story that offers clarity, momentum, or calm. We read every submission.</p>
+    <main id="main" class="container main-stack">
+      <section class="library" id="stories-section">
+        <div class="library-head">
+          <div>
+            <h1>All stories</h1>
+            <p class="library-subtitle">Browse every story in date order, newest first.</p>
+          </div>
+          <div id="storyFilters" class="chips" aria-label="Filter by topic"></div>
         </div>
-
-        <form id="submitForm" class="submit-form" action="https://formsubmit.co/lumora.micro@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="New story submission - Lumora">
-          <input type="hidden" name="_autoresponse" value="Thanks for submitting your story to Lumora. We read every submission and will be in touch if it’s a fit.">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="/thankyou/">
-          <input type="text" name="_honey" style="display:none">
-          <label class="field">
-            <span>Name</span>
-            <input type="text" name="name" placeholder="Your name" required>
-          </label>
-          <label class="field">
-            <span>Email</span>
-            <input type="email" name="email" placeholder="you@example.com" required>
-          </label>
-          <label class="field">
-            <span>Story</span>
-            <textarea name="story" rows="7" placeholder="Write your story here..." required></textarea>
-          </label>
-          <button class="btn primary" type="submit">Send story</button>
-          <p id="submitStatus" class="submit-status" role="status" aria-live="polite"></p>
-        </form>
+        <div id="stories" class="stories-grid"></div>
+        <p id="storiesStatus" class="stories-status" aria-live="polite"></p>
+        <p id="storiesEmpty" class="stories-empty">No stories match your filters yet.</p>
       </section>
     </main>
 
@@ -85,7 +80,7 @@
         </div>
         <div class="footer-links">
           <a href="/about/">About</a>
-          <a href="/#stories-section">Stories</a>
+          <a href="/stories/">Stories</a>
           <a href="/saved/">Saved</a>
           <a href="/submit/">Submit a Story</a>
           <a href="/privacy/">Privacy Policy</a>
@@ -111,12 +106,9 @@
       <div class="footer-bottom">© 2026 Lumora. Built for thoughtful reading.</div>
     </footer>
   </div>
+
   <script defer src="/js/theme.js"></script>
-  <script defer src="/js/submit.js"></script>
+  <script defer src="/js/app.js"></script>
   <script defer src="/js/sw-register.js"></script>
 </body>
 </html>
-
-
-
-

@@ -22,6 +22,11 @@ const loadIndex = () =>
     .then(res => (res.ok ? res.json() : null))
     .catch(() => null);
 
+const loadQuotes = () =>
+  fetch("/data/quotes.json")
+    .then(res => (res.ok ? res.json() : []))
+    .catch(() => []);
+
 const renderLoading = (container) => {
   container.innerHTML = Array.from({ length: 3 }).map(() => `
     <article class="card is-loading">
@@ -40,10 +45,35 @@ const escapeHtml = (value = "") =>
     .replace(/"/g, "&quot;")
     .replace(/'/g, "&#39;");
 
+const normalizeAssetPath = (value = "") => {
+  const src = value.trim();
+  if (!src) return "";
+  if (/^(https?:)?\/\//i.test(src) || src.startsWith("data:")) {
+    return src;
+  }
+  const absolute = src.startsWith("/") ? src : `/${src}`;
+  return encodeURI(absolute);
+};
+
 Promise.all([
   fetch("/data/stories.json").then(res => res.json()),
   loadIndex()
 ]).then(([stories]) => {
+    const normalizedPath = window.location.pathname.replace(/\/+$/, "") || "/";
+    const isHomePage = normalizedPath === "/" || normalizedPath.endsWith("/index.html");
+    const parseStoryDate = (value) => {
+      const parsed = new Date(value);
+      return Number.isNaN(parsed.getTime()) ? null : parsed;
+    };
+    stories = [...stories].sort((a, b) => {
+      const aDate = parseStoryDate(a.date);
+      const bDate = parseStoryDate(b.date);
+      if (aDate && bDate) return bDate - aDate;
+      if (aDate) return -1;
+      if (bDate) return 1;
+      return 0;
+    });
+
     const container = document.getElementById("stories");
     const searchInput = document.getElementById("storySearch");
     const filtersEl = document.getElementById("storyFilters");
@@ -76,7 +106,7 @@ Promise.all([
     };
 
     const renderCardPhoto = (story) => {
-      const src = (story.photo || "").trim();
+      const src = normalizeAssetPath(story.photo || "");
       if (!src) {
         return `<span class="card-media is-empty" aria-hidden="true"></span>`;
       }
@@ -184,13 +214,14 @@ Promise.all([
 
     const update = () => {
       const filtered = stories.filter(matches);
-      renderStories(filtered);
+      const visibleStories = isHomePage ? filtered.slice(0, 1) : filtered;
+      renderStories(visibleStories);
       renderSearchResults();
       if (emptyEl) {
-        emptyEl.style.display = filtered.length ? "none" : "block";
+        emptyEl.style.display = visibleStories.length ? "none" : "block";
       }
       if (statusEl) {
-        statusEl.textContent = `Showing ${filtered.length} of ${stories.length} stories`;
+        statusEl.textContent = `Showing ${visibleStories.length} of ${stories.length} stories`;
       }
     };
 
@@ -252,11 +283,24 @@ Promise.all([
       searchResultsEl.hidden = true;
     });
 
-    const subscribeForm = document.getElementById("subscribeForm");
-    if (subscribeForm) {
-      subscribeForm.addEventListener("submit", () => {
-        const note = document.getElementById("subscribeNote");
-        if (note) note.textContent = "Opening subscription confirmation in a new tab...";
+    const quoteTextEl = document.getElementById("quoteOfDayText");
+    const quoteAuthorEl = document.getElementById("quoteOfDayAuthor");
+    if (quoteTextEl && quoteAuthorEl) {
+      const fallbackQuotes = [
+        { text: "Small daily steps create extraordinary journeys.", author: "Lumora" }
+      ];
+      loadQuotes().then((loadedQuotes) => {
+        const quotes = Array.isArray(loadedQuotes) && loadedQuotes.length
+          ? loadedQuotes
+          : fallbackQuotes;
+        const now = new Date();
+        const start = new Date(Date.UTC(now.getUTCFullYear(), 0, 1));
+        const dayNumber = Math.floor((Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate()) - start.getTime()) / 86400000);
+        const pick = quotes[dayNumber % quotes.length] || fallbackQuotes[0];
+        const text = (pick.text || fallbackQuotes[0].text).trim();
+        const author = (pick.author || fallbackQuotes[0].author).trim();
+        quoteTextEl.textContent = `"${text}"`;
+        quoteAuthorEl.textContent = `- ${author}`;
       });
     }
   });
