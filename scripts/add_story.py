@@ -10,7 +10,6 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 STORIES_PATH = ROOT / "data" / "stories.json"
 UPDATE_SCRIPT = ROOT / "scripts" / "update_content.py"
-NOTIFY_SCRIPT = ROOT / "scripts" / "notify_subscribers.py"
 
 
 def slugify(value):
@@ -54,11 +53,6 @@ def main():
     parser.add_argument("--action-step", dest="action_step")
     parser.add_argument("--id", dest="story_id")
     parser.add_argument("--base-url", dest="base_url")
-    parser.add_argument(
-        "--notify-subscribers",
-        action="store_true",
-        help="Send this story to newsletter subscribers via Buttondown API."
-    )
     args = parser.parse_args()
 
     stories = json.loads(STORIES_PATH.read_text(encoding="utf-8"))
@@ -111,13 +105,6 @@ def main():
 
     print("Running update_content.py ...")
     subprocess.run(cmd, check=True)
-
-    if args.notify_subscribers:
-        notify_cmd = [sys.executable, str(NOTIFY_SCRIPT), "--story-id", story_id]
-        if args.base_url:
-            notify_cmd.extend(["--base-url", args.base_url])
-        print("Sending newsletter to subscribers ...")
-        subprocess.run(notify_cmd, check=True)
 
     print("Done.")
 
