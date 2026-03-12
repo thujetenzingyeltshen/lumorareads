@@ -510,20 +510,20 @@ input:focus-visible,
 
 .hero-orbit{
   position: absolute;
-  width: 360px;
-  height: 360px;
+  width: 320px;
+  height: 320px;
   border-radius: 50%;
   background:
-    radial-gradient(circle, rgba(255,255,255,0.9) 0%, rgba(255,213,128,0.6) 55%, transparent 70%);
-  box-shadow: 0 25px 80px rgba(228,116,42,0.35);
+    radial-gradient(circle, rgba(255,255,255,0.78) 0%, rgba(255,213,128,0.42) 55%, transparent 70%);
+  box-shadow: 0 18px 60px rgba(228,116,42,0.24);
   transition: transform 260ms ease, filter 260ms ease;
 }
 
 .hero-logo{
-  width: 360px;
-  height: 360px;
+  width: 320px;
+  height: 320px;
   object-fit: contain;
-  filter: drop-shadow(0 24px 45px rgba(228,116,42,0.35));
+  filter: drop-shadow(0 18px 36px rgba(228,116,42,0.28));
   z-index: 1;
   transition: transform 260ms ease, filter 260ms ease;
 }
@@ -560,8 +560,8 @@ input:focus-visible,
 }
 
 .hero-visual:hover .hero-logo{
-  transform: scale(1.05);
-  filter: drop-shadow(0 34px 70px rgba(228,116,42,0.55));
+  transform: scale(1.03);
+  filter: drop-shadow(0 24px 52px rgba(228,116,42,0.4));
 }
 
 .hero-visual:hover .hero-orbit{
@@ -1194,12 +1194,12 @@ input:focus-visible,
 
 .theme-evening .hero-orbit{
   background:
-    radial-gradient(circle, rgba(255,245,235,0.55) 0%, rgba(255,200,140,0.18) 55%, transparent 70%);
-  box-shadow: 0 16px 55px rgba(240,164,90,0.18);
+    radial-gradient(circle, rgba(255,245,235,0.42) 0%, rgba(255,200,140,0.14) 55%, transparent 70%);
+  box-shadow: 0 14px 44px rgba(240,164,90,0.14);
 }
 
 .theme-evening .hero-logo{
-  filter: drop-shadow(0 26px 55px rgba(240,164,90,0.28)) brightness(1.05);
+  filter: drop-shadow(0 20px 44px rgba(240,164,90,0.22)) brightness(1.05);
 }
 
 .search-nav{
@@ -2090,40 +2090,58 @@ hr{
 }
 
 @media (max-width: 520px){
-  .container{ padding: 0 16px; }
+  .container{ padding: 0 18px; }
   .topbar{ padding: 18px 0 8px; }
   .topbar-inner{ gap: 14px; }
   .brand-wordmark .brand-name{ font-size: clamp(40px, 16vw, 56px); }
   .nav{
-    font-size: 12px;
+    font-size: 13px;
     letter-spacing: 0.7px;
     gap: 10px 12px;
   }
-  .nav-cta{ padding: 8px 14px; }
+  .nav-cta{
+    padding: 10px 16px;
+    min-height: 44px;
+  }
+  .theme-toggle,
+  .search-toggle{
+    width: 42px;
+    height: 42px;
+  }
   .search-results{
     width: min(320px, calc(100vw - 24px));
     left: -8px;
   }
+  .hero{
+    padding: 24px 0 16px;
+  }
+  .hero-grid{
+    gap: 16px;
+  }
   .hero-content h1{ font-size: 34px; }
   .hero-actions{
     width: 100%;
-    gap: 10px;
+    gap: 12px;
+    margin-bottom: 16px;
   }
   .hero-actions .btn{
     width: 100%;
+    min-height: 48px;
+    padding: 14px 20px;
+    font-size: 15px;
   }
-  .hero-visual{ min-height: 0; }
+  .hero-visual{ min-height: 210px; }
   .hero-logo{
-    width: min(280px, 82vw);
-    height: min(280px, 82vw);
+    width: min(220px, 68vw);
+    height: min(220px, 68vw);
   }
   .hero-orbit{
-    width: min(268px, 78vw);
-    height: min(268px, 78vw);
+    width: min(206px, 64vw);
+    height: min(206px, 64vw);
   }
   .card{
     border-radius: 20px;
-    padding: 16px;
+    padding: 18px;
     gap: 14px;
   }
   .card-top{
@@ -2167,7 +2185,7 @@ hr{
     grid-column: auto;
   }
   .story{
-    padding: 22px 18px;
+    padding: 24px 20px;
     border-radius: 18px;
     gap: 16px;
   }

@@ -86,12 +86,24 @@ Promise.all([
     const saved = new Set(JSON.parse(localStorage.getItem(savedKey) || "[]"));
     if (!container) return;
 
-    let activeTag = "All";
+    let activeTag = "all";
     let query = "";
 
+    const normalizeTag = (value = "") => value.trim().toLowerCase();
+    const toTagLabel = (value = "") => {
+      const cleaned = value.trim();
+      if (!cleaned) return "";
+      return cleaned.charAt(0).toUpperCase() + cleaned.slice(1);
+    };
     const allTags = Array.from(
-      new Set(stories.flatMap(s => s.tags || []))
-    );
+      new Set(
+        stories.flatMap((story) => (story.tags || []).map(normalizeTag)).filter(Boolean)
+      )
+    ).sort((a, b) => a.localeCompare(b));
+    const tagFilters = [
+      { label: "All", value: "all" },
+      ...allTags.map((tag) => ({ label: toTagLabel(tag), value: tag }))
+    ];
 
     const estimateReadTime = (story) => {
       const words = [
@@ -115,10 +127,9 @@ Promise.all([
 
     const renderFilters = () => {
       if (!filtersEl) return;
-      const tags = ["All", "Saved", ...allTags];
-      filtersEl.innerHTML = tags.map(tag => `
-        <button class="chip ${tag === activeTag ? "active" : ""}" data-tag="${tag}">
-          ${tag}
+      filtersEl.innerHTML = tagFilters.map(({ label, value }) => `
+        <button class="chip ${value === activeTag ? "active" : ""}" data-tag="${value}">
+          ${label}
         </button>
       `).join("");
     };
@@ -136,9 +147,9 @@ Promise.all([
 
     const matches = (story) => {
       const haystack = storySearchText.get(story.id) || "";
-      const tagOk = activeTag === "All" ||
-        (activeTag === "Saved" && saved.has(story.id)) ||
-        (story.tags || []).includes(activeTag);
+      const storyTags = (story.tags || []).map(tag => (tag || "").toLowerCase());
+      const selectedTag = activeTag;
+      const tagOk = selectedTag === "all" || storyTags.includes(selectedTag);
       let queryOk = true;
       if (query) {
         const tokens = tokenize(query);
@@ -244,7 +255,8 @@ Promise.all([
       filtersEl.addEventListener("click", (e) => {
         const btn = e.target.closest("[data-tag]");
         if (!btn) return;
-        activeTag = btn.dataset.tag;
+        const selected = btn.dataset.tag || "all";
+        activeTag = tagFilters.some(item => item.value === selected) ? selected : "all";
         renderFilters();
         update();
       });
