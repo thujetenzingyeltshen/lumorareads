@@ -2,6 +2,7 @@
   "version": 1,
   "tokens": {
     "about": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "above": [
@@ -26,10 +27,15 @@
       "the-boy-who-flew-too-close"
     ],
     "again": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "ago": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "alone": [
+      "the-chinese-farmer"
     ],
     "along": [
       "the-lantern-in-the-storm"
@@ -37,13 +43,18 @@
     "also": [
       "the-boy-who-flew-too-close"
     ],
+    "always": [
+      "the-chinese-farmer"
+    ],
     "ambition": [
       "the-boy-who-flew-too-close"
     ],
     "an": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "and": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -53,53 +64,92 @@
     "another": [
       "the-boy-who-flew-too-close"
     ],
+    "any": [
+      "the-chinese-farmer"
+    ],
+    "anyone": [
+      "the-chinese-farmer"
+    ],
     "apart": [
       "the-boy-who-flew-too-close"
     ],
     "are": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "arrived": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "as": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "asked": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "at": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
+    "avoid": [
+      "the-chinese-farmer"
+    ],
     "away": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "bad": [
+      "the-chinese-farmer"
+    ],
+    "badly": [
+      "the-chinese-farmer"
     ],
     "barely": [
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "be": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "became": [
       "the-boy-who-flew-too-close"
     ],
+    "because": [
+      "the-chinese-farmer"
+    ],
     "been": [
       "the-lantern-in-the-storm"
     ],
     "before": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "began": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "behind": [
+      "the-chinese-farmer"
+    ],
+    "being": [
+      "the-chinese-farmer"
     ],
     "below": [
       "the-boy-who-flew-too-close"
     ],
+    "beneath": [
+      "the-chinese-farmer"
+    ],
     "beside": [
       "the-lantern-in-the-storm"
+    ],
+    "better": [
+      "the-chinese-farmer"
     ],
     "between": [
       "the-boy-who-flew-too-close"
@@ -128,25 +178,45 @@
     "bright": [
       "the-boy-who-flew-too-close"
     ],
+    "bring": [
+      "the-chinese-farmer"
+    ],
+    "broke": [
+      "the-chinese-farmer"
+    ],
+    "broken": [
+      "the-chinese-farmer"
+    ],
     "busy": [
       "the-lantern-in-the-storm"
     ],
     "but": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "by": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "calm": [
+      "the-chinese-farmer"
+    ],
     "calmly": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "came": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "can": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "cannot": [
+      "the-chinese-farmer"
     ],
     "care": [
       "the-lantern-in-the-storm"
@@ -157,11 +227,17 @@
     "carried": [
       "the-boy-who-flew-too-close"
     ],
+    "change": [
+      "the-chinese-farmer"
+    ],
     "chasing": [
       "the-boy-who-flew-too-close"
     ],
     "children": [
       "the-boy-who-flew-too-close"
+    ],
+    "chinese": [
+      "the-chinese-farmer"
     ],
     "choose": [
       "the-boy-who-flew-too-close"
@@ -193,6 +269,12 @@
     "completed": [
       "the-boy-who-flew-too-close"
     ],
+    "confused": [
+      "the-chinese-farmer"
+    ],
+    "connected": [
+      "the-chinese-farmer"
+    ],
     "consistent": [
       "the-lantern-in-the-storm"
     ],
@@ -200,6 +282,7 @@
       "the-boy-who-flew-too-close"
     ],
     "could": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "courage": [
@@ -230,12 +313,20 @@
       "the-lantern-in-the-storm"
     ],
     "day": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "days": [
+      "the-chinese-farmer"
+    ],
+    "declared": [
+      "the-chinese-farmer"
     ],
     "deep": [
       "the-lantern-in-the-storm"
     ],
     "did": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "discipline": [
@@ -243,6 +334,9 @@
     ],
     "disciplined": [
       "the-boy-who-flew-too-close"
+    ],
+    "discovered": [
+      "the-chinese-farmer"
     ],
     "distance": [
       "the-lantern-in-the-storm"
@@ -254,6 +348,7 @@
       "the-lantern-in-the-storm"
     ],
     "down": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "dream": [
@@ -269,9 +364,11 @@
       "the-lantern-in-the-storm"
     ],
     "during": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "each": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "eagerly": [
@@ -286,6 +383,9 @@
     "edge": [
       "the-lantern-in-the-storm"
     ],
+    "emperor": [
+      "the-chinese-farmer"
+    ],
     "empty": [
       "the-lantern-in-the-storm"
     ],
@@ -299,7 +399,14 @@
     "evening": [
       "the-lantern-in-the-storm"
     ],
+    "evenings": [
+      "the-chinese-farmer"
+    ],
+    "events": [
+      "the-chinese-farmer"
+    ],
     "every": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "excited": [
@@ -311,6 +418,9 @@
     "experimenting": [
       "the-boy-who-flew-too-close"
     ],
+    "expression": [
+      "the-chinese-farmer"
+    ],
     "faint": [
       "the-lantern-in-the-storm"
     ],
@@ -318,10 +428,20 @@
       "the-lantern-in-the-storm"
     ],
     "fall": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "family": [
+      "the-chinese-farmer"
     ],
     "far": [
       "the-boy-who-flew-too-close"
+    ],
+    "farm": [
+      "the-chinese-farmer"
+    ],
+    "farmer": [
+      "the-chinese-farmer"
     ],
     "fastened": [
       "the-boy-who-flew-too-close"
@@ -346,7 +466,17 @@
       "the-boy-who-flew-too-close"
     ],
     "felt": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "few": [
+      "the-chinese-farmer"
+    ],
+    "fields": [
+      "the-chinese-farmer"
+    ],
+    "fight": [
+      "the-chinese-farmer"
     ],
     "first": [
       "the-boy-who-flew-too-close"
@@ -367,23 +497,41 @@
       "the-boy-who-flew-too-close"
     ],
     "followed": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "for": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "forget": [
       "the-boy-who-flew-too-close"
     ],
+    "fortunate": [
+      "the-chinese-farmer"
+    ],
     "found": [
       "the-lantern-in-the-storm"
     ],
+    "four": [
+      "the-chinese-farmer"
+    ],
     "from": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "frozen": [
       "the-lantern-in-the-storm"
+    ],
+    "future": [
+      "the-chinese-farmer"
+    ],
+    "gathered": [
+      "the-chinese-farmer"
+    ],
+    "gave": [
+      "the-chinese-farmer"
     ],
     "generations": [
       "the-boy-who-flew-too-close"
@@ -406,6 +554,9 @@
     "golden": [
       "the-boy-who-flew-too-close"
     ],
+    "good": [
+      "the-chinese-farmer"
+    ],
     "greatest": [
       "the-boy-who-flew-too-close"
     ],
@@ -413,6 +564,7 @@
       "the-boy-who-flew-too-close"
     ],
     "ground": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "guide": [
@@ -422,6 +574,7 @@
       "the-lantern-in-the-storm"
     ],
     "had": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -431,12 +584,31 @@
     "hang": [
       "the-lantern-in-the-storm"
     ],
+    "happened": [
+      "the-chinese-farmer"
+    ],
+    "happens": [
+      "the-chinese-farmer"
+    ],
+    "happy": [
+      "the-chinese-farmer"
+    ],
+    "hard": [
+      "the-chinese-farmer"
+    ],
     "have": [
       "the-lantern-in-the-storm"
     ],
     "he": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "heads": [
+      "the-chinese-farmer"
+    ],
+    "heard": [
+      "the-chinese-farmer"
     ],
     "heart": [
       "the-lantern-in-the-storm"
@@ -448,6 +620,7 @@
       "the-boy-who-flew-too-close"
     ],
     "help": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "helpless": [
@@ -459,11 +632,16 @@
     "higher": [
       "the-boy-who-flew-too-close"
     ],
+    "hills": [
+      "the-chinese-farmer"
+    ],
     "him": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "his": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -473,8 +651,20 @@
     "hope": [
       "the-lantern-in-the-storm"
     ],
+    "horse": [
+      "the-chinese-farmer"
+    ],
+    "horses": [
+      "the-chinese-farmer"
+    ],
     "hours": [
       "the-boy-who-flew-too-close"
+    ],
+    "house": [
+      "the-chinese-farmer"
+    ],
+    "how": [
+      "the-chinese-farmer"
     ],
     "howled": [
       "the-lantern-in-the-storm"
@@ -486,17 +676,23 @@
       "the-boy-who-flew-too-close"
     ],
     "important": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "in": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "incredible": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "indoors": [
       "the-lantern-in-the-storm"
+    ],
+    "instead": [
+      "the-chinese-farmer"
     ],
     "instructions": [
       "the-boy-who-flew-too-close"
@@ -505,6 +701,7 @@
       "the-boy-who-flew-too-close"
     ],
     "into": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -512,11 +709,22 @@
       "the-boy-who-flew-too-close"
     ],
     "is": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "it": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "its": [
+      "the-chinese-farmer"
+    ],
+    "judging": [
+      "the-chinese-farmer"
+    ],
+    "judgment": [
+      "the-chinese-farmer"
     ],
     "just": [
       "the-lantern-in-the-storm"
@@ -534,15 +742,24 @@
       "the-lantern-in-the-storm"
     ],
     "known": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
+    "labeling": [
+      "the-chinese-farmer"
+    ],
     "lantern": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "late": [
       "the-boy-who-flew-too-close"
     ],
+    "later": [
+      "the-chinese-farmer"
+    ],
     "lead": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "leapt": [
@@ -552,13 +769,21 @@
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
+    "left": [
+      "the-chinese-farmer"
+    ],
+    "leg": [
+      "the-chinese-farmer"
+    ],
     "lesson": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "let": [
       "the-boy-who-flew-too-close"
     ],
     "life": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -566,9 +791,11 @@
       "the-boy-who-flew-too-close"
     ],
     "light": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "like": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -581,15 +808,27 @@
     "listen": [
       "the-boy-who-flew-too-close"
     ],
+    "listened": [
+      "the-chinese-farmer"
+    ],
     "lived": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "long": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "looked": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "looks": [
+      "the-chinese-farmer"
+    ],
+    "losing": [
+      "the-chinese-farmer"
     ],
     "lost": [
       "the-lantern-in-the-storm"
@@ -597,17 +836,31 @@
     "low": [
       "the-boy-who-flew-too-close"
     ],
+    "luck": [
+      "the-chinese-farmer"
+    ],
     "made": [
       "the-boy-who-flew-too-close"
     ],
     "man": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "marched": [
+      "the-chinese-farmer"
+    ],
     "matter": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "matters": [
       "the-boy-who-flew-too-close"
+    ],
+    "may": [
+      "the-chinese-farmer"
+    ],
+    "maybe": [
+      "the-chinese-farmer"
     ],
     "meet": [
       "the-boy-who-flew-too-close"
@@ -624,10 +877,15 @@
     "moment": [
       "the-lantern-in-the-storm"
     ],
+    "moments": [
+      "the-chinese-farmer"
+    ],
     "more": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "morning": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "most": [
@@ -640,7 +898,11 @@
       "the-lantern-in-the-storm"
     ],
     "mountains": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "moved": [
+      "the-chinese-farmer"
     ],
     "my": [
       "the-lantern-in-the-storm",
@@ -649,31 +911,45 @@
     "named": [
       "the-boy-who-flew-too-close"
     ],
+    "nature": [
+      "the-chinese-farmer"
+    ],
     "never": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
+    "news": [
+      "the-chinese-farmer"
+    ],
     "next": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "night": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "nights": [
       "the-lantern-in-the-storm"
     ],
     "no": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "nodded": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "not": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "now": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "of": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -681,21 +957,47 @@
       "the-lantern-in-the-storm"
     ],
     "old": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "on": [
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
+    "once": [
+      "the-chinese-farmer"
+    ],
     "one": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "only": [
+      "the-chinese-farmer"
     ],
     "open": [
       "the-boy-who-flew-too-close"
     ],
+    "or": [
+      "the-chinese-farmer"
+    ],
     "other": [
       "the-boy-who-flew-too-close"
+    ],
+    "others": [
+      "the-chinese-farmer"
+    ],
+    "out": [
+      "the-chinese-farmer"
+    ],
+    "outcomes": [
+      "the-chinese-farmer"
+    ],
+    "over": [
+      "the-chinese-farmer"
+    ],
+    "overly": [
+      "the-chinese-farmer"
     ],
     "own": [
       "the-lantern-in-the-storm"
@@ -710,16 +1012,24 @@
       "the-boy-who-flew-too-close"
     ],
     "path": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "paths": [
       "the-lantern-in-the-storm"
     ],
+    "pause": [
+      "the-chinese-farmer"
+    ],
     "people": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "person": [
       "the-boy-who-flew-too-close"
+    ],
+    "perspective": [
+      "the-chinese-farmer"
     ],
     "place": [
       "the-boy-who-flew-too-close"
@@ -727,11 +1037,17 @@
     "played": [
       "the-boy-who-flew-too-close"
     ],
+    "plow": [
+      "the-chinese-farmer"
+    ],
     "post": [
       "the-lantern-in-the-storm"
     ],
     "powerful": [
       "the-boy-who-flew-too-close"
+    ],
+    "problems": [
+      "the-chinese-farmer"
     ],
     "progress": [
       "the-boy-who-flew-too-close"
@@ -739,16 +1055,31 @@
     "pursuing": [
       "the-boy-who-flew-too-close"
     ],
+    "quick": [
+      "the-chinese-farmer"
+    ],
     "quickly": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "quiet": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "quietly": [
+      "the-chinese-farmer"
+    ],
+    "ran": [
+      "the-chinese-farmer"
+    ],
+    "rarely": [
+      "the-chinese-farmer"
     ],
     "re": [
       "the-boy-who-flew-too-close"
     ],
     "realized": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "reliable": [
@@ -757,8 +1088,26 @@
     "remarkable": [
       "the-boy-who-flew-too-close"
     ],
+    "reply": [
+      "the-chinese-farmer"
+    ],
+    "resist": [
+      "the-chinese-farmer"
+    ],
+    "response": [
+      "the-chinese-farmer"
+    ],
     "restless": [
       "the-boy-who-flew-too-close"
+    ],
+    "return": [
+      "the-chinese-farmer"
+    ],
+    "returned": [
+      "the-chinese-farmer"
+    ],
+    "richer": [
+      "the-chinese-farmer"
     ],
     "road": [
       "the-lantern-in-the-storm"
@@ -772,18 +1121,30 @@
     "ruin": [
       "the-boy-who-flew-too-close"
     ],
+    "run": [
+      "the-chinese-farmer"
+    ],
     "rushed": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
+    "sad": [
+      "the-chinese-farmer"
+    ],
     "safe": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "safely": [
       "the-boy-who-flew-too-close"
     ],
     "said": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "same": [
+      "the-chinese-farmer"
     ],
     "save": [
       "the-lantern-in-the-storm"
@@ -792,21 +1153,45 @@
       "the-lantern-in-the-storm"
     ],
     "saw": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "sea": [
       "the-boy-who-flew-too-close"
     ],
     "see": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "seemed": [
+      "the-chinese-farmer"
+    ],
+    "seems": [
+      "the-chinese-farmer"
+    ],
+    "sent": [
+      "the-chinese-farmer"
+    ],
+    "series": [
+      "the-chinese-farmer"
+    ],
+    "shaking": [
+      "the-chinese-farmer"
     ],
     "shimmered": [
       "the-boy-who-flew-too-close"
     ],
+    "shook": [
+      "the-chinese-farmer"
+    ],
     "shouted": [
       "the-boy-who-flew-too-close"
     ],
+    "simple": [
+      "the-chinese-farmer"
+    ],
     "simply": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "skilled": [
@@ -816,10 +1201,12 @@
       "the-boy-who-flew-too-close"
     ],
     "slowly": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "small": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "smallest": [
@@ -835,6 +1222,7 @@
       "the-lantern-in-the-storm"
     ],
     "so": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -847,23 +1235,34 @@
     "soften": [
       "the-boy-who-flew-too-close"
     ],
+    "soldiers": [
+      "the-chinese-farmer"
+    ],
     "someone": [
       "the-lantern-in-the-storm"
     ],
     "something": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "sometimes": [
       "the-lantern-in-the-storm"
     ],
     "son": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "sons": [
+      "the-chinese-farmer"
     ],
     "spent": [
       "the-boy-who-flew-too-close"
     ],
     "spirit": [
       "the-boy-who-flew-too-close"
+    ],
+    "stable": [
+      "the-chinese-farmer"
     ],
     "staring": [
       "the-boy-who-flew-too-close"
@@ -873,6 +1272,9 @@
     ],
     "stayed": [
       "the-lantern-in-the-storm"
+    ],
+    "still": [
+      "the-chinese-farmer"
     ],
     "stitched": [
       "the-boy-who-flew-too-close"
@@ -884,7 +1286,11 @@
       "the-lantern-in-the-storm"
     ],
     "story": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "straight": [
+      "the-chinese-farmer"
     ],
     "strange": [
       "the-lantern-in-the-storm"
@@ -904,11 +1310,17 @@
     "struggling": [
       "the-lantern-in-the-storm"
     ],
+    "suddenly": [
+      "the-chinese-farmer"
+    ],
     "sun": [
       "the-boy-who-flew-too-close"
     ],
     "sunset": [
       "the-lantern-in-the-storm"
+    ],
+    "surrounded": [
+      "the-chinese-farmer"
     ],
     "sustainable": [
       "the-boy-who-flew-too-close"
@@ -916,34 +1328,60 @@
     "swallowed": [
       "the-boy-who-flew-too-close"
     ],
+    "sympathy": [
+      "the-chinese-farmer"
+    ],
+    "taken": [
+      "the-chinese-farmer"
+    ],
+    "taking": [
+      "the-chinese-farmer"
+    ],
+    "talk": [
+      "the-chinese-farmer"
+    ],
     "terrible": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "than": [
+      "the-chinese-farmer"
+    ],
     "that": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "the": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "their": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "them": [
+      "the-chinese-farmer"
+    ],
     "then": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "there": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "these": [
       "the-boy-who-flew-too-close"
     ],
     "they": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "this": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -954,25 +1392,50 @@
     "thread": [
       "the-boy-who-flew-too-close"
     ],
+    "three": [
+      "the-chinese-farmer"
+    ],
+    "threw": [
+      "the-chinese-farmer"
+    ],
     "through": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
+    "throughout": [
+      "the-chinese-farmer"
+    ],
     "time": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "to": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "today": [
+      "the-chinese-farmer"
     ],
     "together": [
       "the-boy-who-flew-too-close"
     ],
+    "told": [
+      "the-chinese-farmer"
+    ],
+    "tomorrow": [
+      "the-chinese-farmer"
+    ],
     "too": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "town": [
       "the-boy-who-flew-too-close"
+    ],
+    "train": [
+      "the-chinese-farmer"
     ],
     "traveler": [
       "the-lantern-in-the-storm"
@@ -984,8 +1447,12 @@
       "the-lantern-in-the-storm"
     ],
     "truth": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "trying": [
+      "the-chinese-farmer"
     ],
     "turned": [
       "the-boy-who-flew-too-close"
@@ -997,16 +1464,35 @@
       "the-lantern-in-the-storm"
     ],
     "understood": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "unexpected": [
+      "the-chinese-farmer"
+    ],
+    "unfold": [
+      "the-chinese-farmer"
+    ],
+    "unfolding": [
+      "the-chinese-farmer"
+    ],
+    "unfortunate": [
+      "the-chinese-farmer"
     ],
     "until": [
       "the-boy-who-flew-too-close"
+    ],
+    "up": [
+      "the-chinese-farmer"
     ],
     "upward": [
       "the-boy-who-flew-too-close"
     ],
     "us": [
       "the-boy-who-flew-too-close"
+    ],
+    "valley": [
+      "the-chinese-farmer"
     ],
     "valleys": [
       "the-lantern-in-the-storm"
@@ -1015,13 +1501,21 @@
       "the-lantern-in-the-storm"
     ],
     "village": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "villagers": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "visit": [
+      "the-chinese-farmer"
     ],
     "walk": [
       "the-lantern-in-the-storm"
+    ],
+    "war": [
+      "the-chinese-farmer"
     ],
     "warmth": [
       "the-boy-who-flew-too-close"
@@ -1030,6 +1524,7 @@
       "the-boy-who-flew-too-close"
     ],
     "was": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -1045,16 +1540,34 @@
     "wax": [
       "the-boy-who-flew-too-close"
     ],
+    "way": [
+      "the-chinese-farmer"
+    ],
+    "we": [
+      "the-chinese-farmer"
+    ],
     "week": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "were": [
+      "the-chinese-farmer"
+    ],
+    "what": [
+      "the-chinese-farmer"
+    ],
     "when": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "whenever": [
+      "the-chinese-farmer"
     ],
     "where": [
       "the-boy-who-flew-too-close"
     ],
     "while": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "white": [
@@ -1069,6 +1582,7 @@
       "the-boy-who-flew-too-close"
     ],
     "wild": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "will": [
@@ -1088,20 +1602,35 @@
       "the-lantern-in-the-storm"
     ],
     "wisdom": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "wise": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
+    "wisest": [
+      "the-chinese-farmer"
+    ],
     "with": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "without": [
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
+    "woke": [
+      "the-chinese-farmer"
+    ],
+    "wonderful": [
+      "the-chinese-farmer"
+    ],
     "wooden": [
       "the-lantern-in-the-storm"
+    ],
+    "worked": [
+      "the-chinese-farmer"
     ],
     "world": [
       "the-boy-who-flew-too-close"
@@ -1110,19 +1639,24 @@
       "the-lantern-in-the-storm"
     ],
     "write": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "years": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "you": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "young": [
+      "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "your": [
+      "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ]
   }
