@@ -1,11 +1,16 @@
 {
   "version": 1,
   "tokens": {
+    "30": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "about": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "above": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "act": [
@@ -24,6 +29,7 @@
       "the-boy-who-flew-too-close"
     ],
     "after": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "again": [
@@ -40,10 +46,14 @@
     "along": [
       "the-lantern-in-the-storm"
     ],
+    "already": [
+      "the-empty-cup"
+    ],
     "also": [
       "the-boy-who-flew-too-close"
     ],
     "always": [
+      "the-empty-cup",
       "the-chinese-farmer"
     ],
     "ambition": [
@@ -54,6 +64,8 @@
       "the-lantern-in-the-storm"
     ],
     "and": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -70,26 +82,40 @@
     "anyone": [
       "the-chinese-farmer"
     ],
+    "anything": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "apart": [
       "the-boy-who-flew-too-close"
     ],
+    "appeared": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "are": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "around": [
+      "the-bamboo-that-didnt-grow"
     ],
     "arrived": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "as": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "asked": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "at": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
@@ -106,6 +132,9 @@
     "badly": [
       "the-chinese-farmer"
     ],
+    "bamboo": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "barely": [
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -121,6 +150,7 @@
       "the-chinese-farmer"
     ],
     "been": [
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm"
     ],
     "before": [
@@ -129,14 +159,22 @@
       "the-boy-who-flew-too-close"
     ],
     "began": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "begin": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "begins": [
+      "the-empty-cup"
     ],
     "behind": [
       "the-chinese-farmer"
     ],
     "being": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "below": [
@@ -163,6 +201,9 @@
     "boldly": [
       "the-boy-who-flew-too-close"
     ],
+    "books": [
+      "the-empty-cup"
+    ],
     "boundaries": [
       "the-boy-who-flew-too-close"
     ],
@@ -182,15 +223,27 @@
       "the-chinese-farmer"
     ],
     "broke": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "broken": [
       "the-chinese-farmer"
     ],
+    "building": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "builds": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "built": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "busy": [
       "the-lantern-in-the-storm"
     ],
     "but": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -211,15 +264,21 @@
       "the-lantern-in-the-storm"
     ],
     "can": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "cannot": [
+      "the-empty-cup",
       "the-chinese-farmer"
     ],
     "care": [
       "the-lantern-in-the-storm"
+    ],
+    "cared": [
+      "the-bamboo-that-didnt-grow"
     ],
     "carefully": [
       "the-boy-who-flew-too-close"
@@ -232,6 +291,9 @@
     ],
     "chasing": [
       "the-boy-who-flew-too-close"
+    ],
+    "checked": [
+      "the-bamboo-that-didnt-grow"
     ],
     "children": [
       "the-boy-who-flew-too-close"
@@ -269,21 +331,36 @@
     "completed": [
       "the-boy-who-flew-too-close"
     ],
+    "conclusions": [
+      "the-empty-cup"
+    ],
     "confused": [
       "the-chinese-farmer"
     ],
     "connected": [
       "the-chinese-farmer"
     ],
+    "consistency": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "consistent": [
       "the-lantern-in-the-storm"
+    ],
+    "constantly": [
+      "the-empty-cup"
     ],
     "containing": [
       "the-boy-who-flew-too-close"
     ],
+    "corner": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "could": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "couldn": [
+      "the-bamboo-that-didnt-grow"
     ],
     "courage": [
       "the-boy-who-flew-too-close"
@@ -297,11 +374,17 @@
     "crown": [
       "the-boy-who-flew-too-close"
     ],
+    "cup": [
+      "the-empty-cup"
+    ],
     "curiosity": [
       "the-boy-who-flew-too-close"
     ],
     "dael": [
       "the-boy-who-flew-too-close"
+    ],
+    "daily": [
+      "the-bamboo-that-didnt-grow"
     ],
     "danger": [
       "the-boy-who-flew-too-close"
@@ -313,21 +396,31 @@
       "the-lantern-in-the-storm"
     ],
     "day": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "days": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "declared": [
       "the-chinese-farmer"
     ],
     "deep": [
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm"
     ],
     "did": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "didn": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "dirt": [
+      "the-bamboo-that-didnt-grow"
     ],
     "discipline": [
       "the-boy-who-flew-too-close"
@@ -342,12 +435,14 @@
       "the-lantern-in-the-storm"
     ],
     "do": [
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm"
     ],
     "door": [
       "the-lantern-in-the-storm"
     ],
     "down": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
@@ -378,25 +473,33 @@
       "the-lantern-in-the-storm"
     ],
     "earth": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "edge": [
       "the-lantern-in-the-storm"
     ],
+    "else": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "emperor": [
       "the-chinese-farmer"
     ],
     "empty": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm"
     ],
     "endlessly": [
       "the-boy-who-flew-too-close"
     ],
     "even": [
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "evening": [
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm"
     ],
     "evenings": [
@@ -406,8 +509,12 @@
       "the-chinese-farmer"
     ],
     "every": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "exactly": [
+      "the-bamboo-that-didnt-grow"
     ],
     "excited": [
       "the-boy-who-flew-too-close"
@@ -441,10 +548,14 @@
       "the-chinese-farmer"
     ],
     "farmer": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "fastened": [
       "the-boy-who-flew-too-close"
+    ],
+    "faster": [
+      "the-bamboo-that-didnt-grow"
     ],
     "father": [
       "the-boy-who-flew-too-close"
@@ -472,13 +583,24 @@
     "few": [
       "the-chinese-farmer"
     ],
+    "field": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "fields": [
       "the-chinese-farmer"
     ],
     "fight": [
       "the-chinese-farmer"
     ],
+    "filled": [
+      "the-empty-cup"
+    ],
+    "finally": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "first": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "flew": [
@@ -489,6 +611,9 @@
     ],
     "flight": [
       "the-boy-who-flew-too-close"
+    ],
+    "floor": [
+      "the-empty-cup"
     ],
     "fly": [
       "the-boy-who-flew-too-close"
@@ -501,6 +626,8 @@
       "the-boy-who-flew-too-close"
     ],
     "for": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -514,6 +641,9 @@
     "found": [
       "the-lantern-in-the-storm"
     ],
+    "foundation": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "four": [
       "the-chinese-farmer"
     ],
@@ -523,6 +653,9 @@
     ],
     "frozen": [
       "the-lantern-in-the-storm"
+    ],
+    "full": [
+      "the-empty-cup"
     ],
     "future": [
       "the-chinese-farmer"
@@ -548,6 +681,9 @@
     "glowed": [
       "the-boy-who-flew-too-close"
     ],
+    "go": [
+      "the-empty-cup"
+    ],
     "goal": [
       "the-boy-who-flew-too-close"
     ],
@@ -560,12 +696,27 @@
     "greatest": [
       "the-boy-who-flew-too-close"
     ],
+    "green": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "grew": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "ground": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "grow": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "growing": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "growth": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow"
     ],
     "guide": [
       "the-lantern-in-the-storm"
@@ -573,7 +724,12 @@
     "guided": [
       "the-lantern-in-the-storm"
     ],
+    "habit": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "had": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -587,6 +743,9 @@
     "happened": [
       "the-chinese-farmer"
     ],
+    "happening": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "happens": [
       "the-chinese-farmer"
     ],
@@ -596,10 +755,15 @@
     "hard": [
       "the-chinese-farmer"
     ],
+    "has": [
+      "the-empty-cup"
+    ],
     "have": [
       "the-lantern-in-the-storm"
     ],
     "he": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -641,6 +805,7 @@
       "the-boy-who-flew-too-close"
     ],
     "his": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -664,6 +829,8 @@
       "the-chinese-farmer"
     ],
     "how": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "howled": [
@@ -672,7 +839,11 @@
     "icar": [
       "the-boy-who-flew-too-close"
     ],
+    "ideas": [
+      "the-empty-cup"
+    ],
     "if": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "important": [
@@ -680,6 +851,8 @@
       "the-lantern-in-the-storm"
     ],
     "in": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -701,6 +874,7 @@
       "the-boy-who-flew-too-close"
     ],
     "into": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -708,11 +882,18 @@
     "inventor": [
       "the-boy-who-flew-too-close"
     ],
+    "invisible": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "is": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "it": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -727,12 +908,16 @@
       "the-chinese-farmer"
     ],
     "just": [
+      "the-empty-cup",
       "the-lantern-in-the-storm"
     ],
     "keep": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "kept": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm"
     ],
     "kindness": [
@@ -758,6 +943,9 @@
     "later": [
       "the-chinese-farmer"
     ],
+    "laughed": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "lead": [
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
@@ -765,9 +953,15 @@
     "leapt": [
       "the-boy-who-flew-too-close"
     ],
+    "learn": [
+      "the-empty-cup"
+    ],
     "learned": [
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "learning": [
+      "the-empty-cup"
     ],
     "left": [
       "the-chinese-farmer"
@@ -795,6 +989,7 @@
       "the-lantern-in-the-storm"
     ],
     "like": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -806,6 +1001,7 @@
       "the-boy-who-flew-too-close"
     ],
     "listen": [
+      "the-empty-cup",
       "the-boy-who-flew-too-close"
     ],
     "listened": [
@@ -816,11 +1012,14 @@
       "the-boy-who-flew-too-close"
     ],
     "long": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "looked": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
@@ -842,12 +1041,21 @@
     "made": [
       "the-boy-who-flew-too-close"
     ],
+    "make": [
+      "the-empty-cup"
+    ],
+    "makes": [
+      "the-empty-cup"
+    ],
     "man": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "marched": [
       "the-chinese-farmer"
+    ],
+    "master": [
+      "the-empty-cup"
     ],
     "matter": [
       "the-chinese-farmer",
@@ -874,17 +1082,28 @@
     "might": [
       "the-lantern-in-the-storm"
     ],
+    "mind": [
+      "the-empty-cup"
+    ],
+    "mindset": [
+      "the-empty-cup"
+    ],
     "moment": [
       "the-lantern-in-the-storm"
     ],
     "moments": [
       "the-chinese-farmer"
     ],
+    "months": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "more": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "morning": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -914,14 +1133,24 @@
     "nature": [
       "the-chinese-farmer"
     ],
+    "neighbors": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "network": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "never": [
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "new": [
+      "the-empty-cup"
     ],
     "news": [
       "the-chinese-farmer"
     ],
     "next": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -933,6 +1162,7 @@
       "the-lantern-in-the-storm"
     ],
     "no": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -941,19 +1171,26 @@
       "the-boy-who-flew-too-close"
     ],
     "not": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "nothing": [
+      "the-bamboo-that-didnt-grow"
     ],
     "now": [
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "of": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "often": [
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm"
     ],
     "old": [
@@ -961,22 +1198,32 @@
       "the-lantern-in-the-storm"
     ],
     "on": [
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "once": [
+      "the-empty-cup",
       "the-chinese-farmer"
     ],
     "one": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "only": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
+    ],
+    "onto": [
+      "the-empty-cup"
     ],
     "open": [
       "the-boy-who-flew-too-close"
+    ],
+    "opinions": [
+      "the-empty-cup"
     ],
     "or": [
       "the-chinese-farmer"
@@ -996,10 +1243,14 @@
     "over": [
       "the-chinese-farmer"
     ],
+    "overflowed": [
+      "the-empty-cup"
+    ],
     "overly": [
       "the-chinese-farmer"
     ],
     "own": [
+      "the-empty-cup",
       "the-lantern-in-the-storm"
     ],
     "painful": [
@@ -1009,6 +1260,7 @@
       "the-boy-who-flew-too-close"
     ],
     "passed": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "path": [
@@ -1017,6 +1269,9 @@
     ],
     "paths": [
       "the-lantern-in-the-storm"
+    ],
+    "patience": [
+      "the-bamboo-that-didnt-grow"
     ],
     "pause": [
       "the-chinese-farmer"
@@ -1034,6 +1289,9 @@
     "place": [
       "the-boy-who-flew-too-close"
     ],
+    "planted": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "played": [
       "the-boy-who-flew-too-close"
     ],
@@ -1043,13 +1301,26 @@
     "post": [
       "the-lantern-in-the-storm"
     ],
+    "pouring": [
+      "the-empty-cup"
+    ],
     "powerful": [
       "the-boy-who-flew-too-close"
+    ],
+    "prepared": [
+      "the-empty-cup"
+    ],
+    "preparing": [
+      "the-empty-cup"
     ],
     "problems": [
       "the-chinese-farmer"
     ],
+    "professor": [
+      "the-empty-cup"
+    ],
     "progress": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "pursuing": [
@@ -1059,14 +1330,17 @@
       "the-chinese-farmer"
     ],
     "quickly": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "quiet": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "quietly": [
+      "the-empty-cup",
       "the-chinese-farmer"
     ],
     "ran": [
@@ -1078,9 +1352,21 @@
     "re": [
       "the-boy-who-flew-too-close"
     ],
+    "read": [
+      "the-empty-cup"
+    ],
+    "ready": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "real": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "realized": [
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "receive": [
+      "the-empty-cup"
     ],
     "reliable": [
       "the-lantern-in-the-storm"
@@ -1095,10 +1381,14 @@
       "the-chinese-farmer"
     ],
     "response": [
+      "the-empty-cup",
       "the-chinese-farmer"
     ],
     "restless": [
       "the-boy-who-flew-too-close"
+    ],
+    "results": [
+      "the-bamboo-that-didnt-grow"
     ],
     "return": [
       "the-chinese-farmer"
@@ -1114,6 +1404,12 @@
     ],
     "roared": [
       "the-lantern-in-the-storm"
+    ],
+    "room": [
+      "the-empty-cup"
+    ],
+    "roots": [
+      "the-bamboo-that-didnt-grow"
     ],
     "rose": [
       "the-boy-who-flew-too-close"
@@ -1139,11 +1435,14 @@
       "the-boy-who-flew-too-close"
     ],
     "said": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "same": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "save": [
@@ -1160,8 +1459,12 @@
       "the-boy-who-flew-too-close"
     ],
     "see": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
+    ],
+    "seeds": [
+      "the-bamboo-that-didnt-grow"
     ],
     "seemed": [
       "the-chinese-farmer"
@@ -1175,6 +1478,9 @@
     "series": [
       "the-chinese-farmer"
     ],
+    "set": [
+      "the-empty-cup"
+    ],
     "shaking": [
       "the-chinese-farmer"
     ],
@@ -1184,8 +1490,23 @@
     "shook": [
       "the-chinese-farmer"
     ],
+    "shoot": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "short": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "shot": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "shouted": [
       "the-boy-who-flew-too-close"
+    ],
+    "show": [
+      "the-empty-cup"
+    ],
+    "signs": [
+      "the-bamboo-that-didnt-grow"
     ],
     "simple": [
       "the-chinese-farmer"
@@ -1206,6 +1527,7 @@
       "the-boy-who-flew-too-close"
     ],
     "small": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -1216,12 +1538,15 @@
       "the-lantern-in-the-storm"
     ],
     "smiled": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm"
     ],
     "snow": [
       "the-lantern-in-the-storm"
     ],
     "so": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -1235,10 +1560,14 @@
     "soften": [
       "the-boy-who-flew-too-close"
     ],
+    "soil": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "soldiers": [
       "the-chinese-farmer"
     ],
     "someone": [
+      "the-empty-cup",
       "the-lantern-in-the-storm"
     ],
     "something": [
@@ -1255,11 +1584,23 @@
     "sons": [
       "the-chinese-farmer"
     ],
+    "space": [
+      "the-empty-cup"
+    ],
     "spent": [
       "the-boy-who-flew-too-close"
     ],
+    "spilling": [
+      "the-empty-cup"
+    ],
     "spirit": [
       "the-boy-who-flew-too-close"
+    ],
+    "spoke": [
+      "the-empty-cup"
+    ],
+    "spring": [
+      "the-bamboo-that-didnt-grow"
     ],
     "stable": [
       "the-chinese-farmer"
@@ -1268,16 +1609,21 @@
       "the-boy-who-flew-too-close"
     ],
     "stay": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "stayed": [
       "the-lantern-in-the-storm"
     ],
     "still": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "stitched": [
       "the-boy-who-flew-too-close"
+    ],
+    "stop": [
+      "the-empty-cup"
     ],
     "storm": [
       "the-lantern-in-the-storm"
@@ -1295,8 +1641,14 @@
     "strange": [
       "the-lantern-in-the-storm"
     ],
+    "strength": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "stretched": [
       "the-boy-who-flew-too-close"
+    ],
+    "strong": [
+      "the-bamboo-that-didnt-grow"
     ],
     "strongest": [
       "the-lantern-in-the-storm"
@@ -1310,6 +1662,12 @@
     "struggling": [
       "the-lantern-in-the-storm"
     ],
+    "stunned": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "sudden": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "suddenly": [
       "the-chinese-farmer"
     ],
@@ -1318,6 +1676,9 @@
     ],
     "sunset": [
       "the-lantern-in-the-storm"
+    ],
+    "surface": [
+      "the-bamboo-that-didnt-grow"
     ],
     "surrounded": [
       "the-chinese-farmer"
@@ -1331,6 +1692,9 @@
     "sympathy": [
       "the-chinese-farmer"
     ],
+    "table": [
+      "the-empty-cup"
+    ],
     "taken": [
       "the-chinese-farmer"
     ],
@@ -1340,19 +1704,33 @@
     "talk": [
       "the-chinese-farmer"
     ],
+    "taller": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "tea": [
+      "the-empty-cup"
+    ],
+    "teapot": [
+      "the-empty-cup"
+    ],
     "terrible": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "than": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "that": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "the": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -1365,8 +1743,12 @@
       "the-chinese-farmer"
     ],
     "then": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "theories": [
+      "the-empty-cup"
     ],
     "there": [
       "the-chinese-farmer",
@@ -1376,14 +1758,19 @@
       "the-boy-who-flew-too-close"
     ],
     "they": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "this": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "though": [
+      "the-bamboo-that-didnt-grow"
     ],
     "thought": [
       "the-lantern-in-the-storm",
@@ -1399,6 +1786,7 @@
       "the-chinese-farmer"
     ],
     "through": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -1407,15 +1795,19 @@
       "the-chinese-farmer"
     ],
     "time": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "to": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "today": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "together": [
@@ -1425,6 +1817,7 @@
       "the-chinese-farmer"
     ],
     "tomorrow": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "too": [
@@ -1446,10 +1839,16 @@
     "travels": [
       "the-lantern-in-the-storm"
     ],
+    "trees": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "truth": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "try": [
+      "the-empty-cup"
     ],
     "trying": [
       "the-chinese-farmer"
@@ -1463,7 +1862,14 @@
     "under": [
       "the-lantern-in-the-storm"
     ],
+    "underground": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "understand": [
+      "the-empty-cup"
+    ],
     "understood": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
@@ -1479,13 +1885,21 @@
     "unfortunate": [
       "the-chinese-farmer"
     ],
+    "university": [
+      "the-empty-cup"
+    ],
+    "unless": [
+      "the-empty-cup"
+    ],
     "until": [
+      "the-empty-cup",
       "the-boy-who-flew-too-close"
     ],
     "up": [
       "the-chinese-farmer"
     ],
     "upward": [
+      "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
     ],
     "us": [
@@ -1508,8 +1922,14 @@
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "visible": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "visit": [
       "the-chinese-farmer"
+    ],
+    "visited": [
+      "the-empty-cup"
     ],
     "walk": [
       "the-lantern-in-the-storm"
@@ -1524,15 +1944,28 @@
       "the-boy-who-flew-too-close"
     ],
     "was": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "wasting": [
+      "the-bamboo-that-didnt-grow"
     ],
     "watched": [
       "the-boy-who-flew-too-close"
     ],
     "watching": [
       "the-boy-who-flew-too-close"
+    ],
+    "water": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "watered": [
+      "the-bamboo-that-didnt-grow"
+    ],
+    "watering": [
+      "the-bamboo-that-didnt-grow"
     ],
     "waves": [
       "the-boy-who-flew-too-close"
@@ -1544,19 +1977,27 @@
       "the-chinese-farmer"
     ],
     "we": [
+      "the-empty-cup",
       "the-chinese-farmer"
     ],
     "week": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "weeks": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "were": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "what": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "when": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -1567,6 +2008,7 @@
       "the-boy-who-flew-too-close"
     ],
     "while": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
@@ -1578,6 +2020,7 @@
       "the-boy-who-flew-too-close"
     ],
     "why": [
+      "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -1586,6 +2029,7 @@
       "the-lantern-in-the-storm"
     ],
     "will": [
+      "the-empty-cup",
       "the-boy-who-flew-too-close"
     ],
     "wind": [
@@ -1602,6 +2046,7 @@
       "the-lantern-in-the-storm"
     ],
     "wisdom": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
@@ -1616,7 +2061,11 @@
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
+    "within": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "without": [
+      "the-empty-cup",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -1628,6 +2077,9 @@
     ],
     "wooden": [
       "the-lantern-in-the-storm"
+    ],
+    "work": [
+      "the-bamboo-that-didnt-grow"
     ],
     "worked": [
       "the-chinese-farmer"
@@ -1642,22 +2094,36 @@
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
+    "year": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "years": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
+    "yet": [
+      "the-bamboo-that-didnt-grow"
+    ],
     "you": [
+      "the-empty-cup",
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "young": [
+      "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "your": [
+      "the-empty-cup",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "zen": [
+      "the-empty-cup"
     ]
   }
 }

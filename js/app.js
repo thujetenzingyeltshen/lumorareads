@@ -225,7 +225,15 @@ Promise.all([
 
     const update = () => {
       const filtered = stories.filter(matches);
-      const visibleStories = isHomePage ? filtered.slice(0, 1) : filtered;
+      let visibleStories = filtered;
+      if (isHomePage) {
+        const latestDate = filtered[0]?.date;
+        if (latestDate) {
+          visibleStories = filtered.filter((story) => story.date === latestDate);
+        } else {
+          visibleStories = filtered.slice(0, 1);
+        }
+      }
       renderStories(visibleStories);
       renderSearchResults();
       if (emptyEl) {

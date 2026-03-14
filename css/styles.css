@@ -1446,9 +1446,10 @@ input:focus-visible,
 
 .card-media{
   width: 140px;
-  height: 140px;
+  height: 150px;
   border-radius: 16px;
   object-fit: cover;
+  object-position: center top;
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.85);
   display: block;
@@ -2065,7 +2066,7 @@ hr{
   }
   .card-media{
     width: 120px;
-    height: 120px;
+    height: 128px;
     border-radius: 14px;
   }
   .card-date,
@@ -2158,7 +2159,7 @@ hr{
   }
   .card-media{
     width: min(130px, 40vw);
-    height: min(130px, 40vw);
+    height: min(138px, 42vw);
   }
   .card h2{
     font-size: 20px;
