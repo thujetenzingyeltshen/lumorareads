@@ -14,6 +14,7 @@
       "the-boy-who-flew-too-close"
     ],
     "act": [
+      "the-roman-emperor-s-reminder",
       "the-lantern-in-the-storm"
     ],
     "action": [
@@ -53,6 +54,7 @@
       "the-boy-who-flew-too-close"
     ],
     "always": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-chinese-farmer"
     ],
@@ -64,11 +66,15 @@
       "the-lantern-in-the-storm"
     ],
     "and": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
+    ],
+    "angry": [
+      "the-roman-emperor-s-reminder"
     ],
     "animal": [
       "the-lantern-in-the-storm"
@@ -89,24 +95,36 @@
       "the-boy-who-flew-too-close"
     ],
     "appeared": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow"
     ],
     "are": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "armies": [
+      "the-roman-emperor-s-reminder"
+    ],
     "around": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow"
     ],
     "arrived": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "arrogant": [
+      "the-roman-emperor-s-reminder"
+    ],
     "as": [
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "ask": [
+      "the-roman-emperor-s-reminder"
     ],
     "asked": [
       "the-bamboo-that-didnt-grow",
@@ -118,6 +136,9 @@
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "aurelius": [
+      "the-roman-emperor-s-reminder"
     ],
     "avoid": [
       "the-chinese-farmer"
@@ -147,6 +168,7 @@
       "the-boy-who-flew-too-close"
     ],
     "because": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "been": [
@@ -154,11 +176,13 @@
       "the-lantern-in-the-storm"
     ],
     "before": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "began": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
@@ -185,6 +209,12 @@
     ],
     "beside": [
       "the-lantern-in-the-storm"
+    ],
+    "best": [
+      "the-roman-emperor-s-reminder"
+    ],
+    "betrayed": [
+      "the-roman-emperor-s-reminder"
     ],
     "better": [
       "the-chinese-farmer"
@@ -242,6 +272,7 @@
       "the-lantern-in-the-storm"
     ],
     "but": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -249,10 +280,12 @@
       "the-boy-who-flew-too-close"
     ],
     "by": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "calm": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "calmly": [
@@ -264,6 +297,7 @@
       "the-lantern-in-the-storm"
     ],
     "can": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -271,6 +305,7 @@
       "the-boy-who-flew-too-close"
     ],
     "cannot": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-chinese-farmer"
     ],
@@ -302,10 +337,17 @@
       "the-chinese-farmer"
     ],
     "choose": [
+      "the-roman-emperor-s-reminder",
       "the-boy-who-flew-too-close"
+    ],
+    "choosing": [
+      "the-roman-emperor-s-reminder"
     ],
     "circled": [
       "the-boy-who-flew-too-close"
+    ],
+    "cities": [
+      "the-roman-emperor-s-reminder"
     ],
     "cliffs": [
       "the-boy-who-flew-too-close"
@@ -327,6 +369,9 @@
     ],
     "collapse": [
       "the-lantern-in-the-storm"
+    ],
+    "commanded": [
+      "the-roman-emperor-s-reminder"
     ],
     "completed": [
       "the-boy-who-flew-too-close"
@@ -352,10 +397,14 @@
     "containing": [
       "the-boy-who-flew-too-close"
     ],
+    "control": [
+      "the-roman-emperor-s-reminder"
+    ],
     "corner": [
       "the-bamboo-that-didnt-grow"
     ],
     "could": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -396,6 +445,7 @@
       "the-lantern-in-the-storm"
     ],
     "day": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
@@ -418,6 +468,12 @@
     ],
     "didn": [
       "the-bamboo-that-didnt-grow"
+    ],
+    "difficult": [
+      "the-roman-emperor-s-reminder"
+    ],
+    "difficulty": [
+      "the-roman-emperor-s-reminder"
     ],
     "dirt": [
       "the-bamboo-that-didnt-grow"
@@ -462,7 +518,11 @@
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "duty": [
+      "the-roman-emperor-s-reminder"
+    ],
     "each": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -483,7 +543,11 @@
       "the-bamboo-that-didnt-grow"
     ],
     "emperor": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
+    ],
+    "empire": [
+      "the-roman-emperor-s-reminder"
     ],
     "empty": [
       "the-empty-cup",
@@ -492,6 +556,9 @@
     ],
     "endlessly": [
       "the-boy-who-flew-too-close"
+    ],
+    "enough": [
+      "the-roman-emperor-s-reminder"
     ],
     "even": [
       "the-bamboo-that-didnt-grow",
@@ -509,6 +576,7 @@
       "the-chinese-farmer"
     ],
     "every": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
@@ -521,6 +589,12 @@
     ],
     "excitement": [
       "the-boy-who-flew-too-close"
+    ],
+    "expected": [
+      "the-roman-emperor-s-reminder"
+    ],
+    "expecting": [
+      "the-roman-emperor-s-reminder"
     ],
     "experimenting": [
       "the-boy-who-flew-too-close"
@@ -565,6 +639,9 @@
     ],
     "feared": [
       "the-lantern-in-the-storm"
+    ],
+    "fears": [
+      "the-roman-emperor-s-reminder"
     ],
     "feather": [
       "the-boy-who-flew-too-close"
@@ -621,6 +698,9 @@
     "flying": [
       "the-boy-who-flew-too-close"
     ],
+    "focused": [
+      "the-roman-emperor-s-reminder"
+    ],
     "followed": [
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
@@ -633,6 +713,7 @@
       "the-boy-who-flew-too-close"
     ],
     "forget": [
+      "the-roman-emperor-s-reminder",
       "the-boy-who-flew-too-close"
     ],
     "fortunate": [
@@ -648,11 +729,15 @@
       "the-chinese-farmer"
     ],
     "from": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "frozen": [
       "the-lantern-in-the-storm"
+    ],
+    "frustrating": [
+      "the-roman-emperor-s-reminder"
     ],
     "full": [
       "the-empty-cup"
@@ -693,7 +778,11 @@
     "good": [
       "the-chinese-farmer"
     ],
+    "governed": [
+      "the-roman-emperor-s-reminder"
+    ],
     "greatest": [
+      "the-roman-emperor-s-reminder",
       "the-boy-who-flew-too-close"
     ],
     "green": [
@@ -747,6 +836,7 @@
       "the-bamboo-that-didnt-grow"
     ],
     "happens": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "happy": [
@@ -758,10 +848,14 @@
     "has": [
       "the-empty-cup"
     ],
+    "hated": [
+      "the-roman-emperor-s-reminder"
+    ],
     "have": [
       "the-lantern-in-the-storm"
     ],
     "he": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -783,6 +877,9 @@
     "heights": [
       "the-boy-who-flew-too-close"
     ],
+    "held": [
+      "the-roman-emperor-s-reminder"
+    ],
     "help": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
@@ -796,15 +893,23 @@
     "higher": [
       "the-boy-who-flew-too-close"
     ],
+    "highest": [
+      "the-roman-emperor-s-reminder"
+    ],
     "hills": [
       "the-chinese-farmer"
     ],
     "him": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
+    "himself": [
+      "the-roman-emperor-s-reminder"
+    ],
     "his": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
@@ -829,6 +934,7 @@
       "the-chinese-farmer"
     ],
     "how": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
@@ -843,14 +949,25 @@
       "the-empty-cup"
     ],
     "if": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-boy-who-flew-too-close"
+    ],
+    "ignorance": [
+      "the-roman-emperor-s-reminder"
+    ],
+    "imagine": [
+      "the-roman-emperor-s-reminder"
+    ],
+    "impatient": [
+      "the-roman-emperor-s-reminder"
     ],
     "important": [
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "in": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -865,10 +982,14 @@
       "the-lantern-in-the-storm"
     ],
     "instead": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "instructions": [
       "the-boy-who-flew-too-close"
+    ],
+    "insulted": [
+      "the-roman-emperor-s-reminder"
     ],
     "intense": [
       "the-boy-who-flew-too-close"
@@ -900,6 +1021,9 @@
     ],
     "its": [
       "the-chinese-farmer"
+    ],
+    "journal": [
+      "the-roman-emperor-s-reminder"
     ],
     "judging": [
       "the-chinese-farmer"
@@ -1054,6 +1178,9 @@
     "marched": [
       "the-chinese-farmer"
     ],
+    "marcus": [
+      "the-roman-emperor-s-reminder"
+    ],
     "master": [
       "the-empty-cup"
     ],
@@ -1071,6 +1198,7 @@
       "the-chinese-farmer"
     ],
     "meet": [
+      "the-roman-emperor-s-reminder",
       "the-boy-who-flew-too-close"
     ],
     "melt": [
@@ -1083,9 +1211,11 @@
       "the-lantern-in-the-storm"
     ],
     "mind": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup"
     ],
     "mindset": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup"
     ],
     "moment": [
@@ -1103,11 +1233,13 @@
       "the-boy-who-flew-too-close"
     ],
     "morning": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
     "most": [
+      "the-roman-emperor-s-reminder",
       "the-lantern-in-the-storm"
     ],
     "motivation": [
@@ -1124,6 +1256,7 @@
       "the-chinese-farmer"
     ],
     "my": [
+      "the-roman-emperor-s-reminder",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -1150,6 +1283,7 @@
       "the-chinese-farmer"
     ],
     "next": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
@@ -1171,6 +1305,7 @@
       "the-boy-who-flew-too-close"
     ],
     "not": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
@@ -1179,10 +1314,12 @@
       "the-bamboo-that-didnt-grow"
     ],
     "now": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "of": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -1198,6 +1335,7 @@
       "the-lantern-in-the-storm"
     ],
     "on": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
@@ -1241,6 +1379,7 @@
       "the-chinese-farmer"
     ],
     "over": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "overflowed": [
@@ -1250,6 +1389,7 @@
       "the-chinese-farmer"
     ],
     "own": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-lantern-in-the-storm"
     ],
@@ -1274,19 +1414,26 @@
       "the-bamboo-that-didnt-grow"
     ],
     "pause": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "people": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
+    "perfection": [
+      "the-roman-emperor-s-reminder"
+    ],
     "person": [
+      "the-roman-emperor-s-reminder",
       "the-boy-who-flew-too-close"
     ],
     "perspective": [
       "the-chinese-farmer"
     ],
     "place": [
+      "the-roman-emperor-s-reminder",
       "the-boy-who-flew-too-close"
     ],
     "planted": [
@@ -1304,16 +1451,21 @@
     "pouring": [
       "the-empty-cup"
     ],
+    "power": [
+      "the-roman-emperor-s-reminder"
+    ],
     "powerful": [
       "the-boy-who-flew-too-close"
     ],
     "prepared": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup"
     ],
     "preparing": [
       "the-empty-cup"
     ],
     "problems": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "professor": [
@@ -1352,6 +1504,9 @@
     "re": [
       "the-boy-who-flew-too-close"
     ],
+    "reaction": [
+      "the-roman-emperor-s-reminder"
+    ],
     "read": [
       "the-empty-cup"
     ],
@@ -1371,8 +1526,17 @@
     "reliable": [
       "the-lantern-in-the-storm"
     ],
+    "remained": [
+      "the-roman-emperor-s-reminder"
+    ],
     "remarkable": [
       "the-boy-who-flew-too-close"
+    ],
+    "reminded": [
+      "the-roman-emperor-s-reminder"
+    ],
+    "reminder": [
+      "the-roman-emperor-s-reminder"
     ],
     "reply": [
       "the-chinese-farmer"
@@ -1380,7 +1544,11 @@
     "resist": [
       "the-chinese-farmer"
     ],
+    "respond": [
+      "the-roman-emperor-s-reminder"
+    ],
     "response": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-chinese-farmer"
     ],
@@ -1399,11 +1567,17 @@
     "richer": [
       "the-chinese-farmer"
     ],
+    "right": [
+      "the-roman-emperor-s-reminder"
+    ],
     "road": [
       "the-lantern-in-the-storm"
     ],
     "roared": [
       "the-lantern-in-the-storm"
+    ],
+    "roman": [
+      "the-roman-emperor-s-reminder"
     ],
     "room": [
       "the-empty-cup"
@@ -1416,6 +1590,12 @@
     ],
     "ruin": [
       "the-boy-who-flew-too-close"
+    ],
+    "ruled": [
+      "the-roman-emperor-s-reminder"
+    ],
+    "rulers": [
+      "the-roman-emperor-s-reminder"
     ],
     "run": [
       "the-chinese-farmer"
@@ -1472,6 +1652,12 @@
     "seems": [
       "the-chinese-farmer"
     ],
+    "self": [
+      "the-roman-emperor-s-reminder"
+    ],
+    "selfish": [
+      "the-roman-emperor-s-reminder"
+    ],
     "sent": [
       "the-chinese-farmer"
     ],
@@ -1509,6 +1695,7 @@
       "the-bamboo-that-didnt-grow"
     ],
     "simple": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "simply": [
@@ -1546,6 +1733,7 @@
       "the-lantern-in-the-storm"
     ],
     "so": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
@@ -1567,10 +1755,12 @@
       "the-chinese-farmer"
     ],
     "someone": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-lantern-in-the-storm"
     ],
     "something": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -1586,6 +1776,9 @@
     ],
     "space": [
       "the-empty-cup"
+    ],
+    "spend": [
+      "the-roman-emperor-s-reminder"
     ],
     "spent": [
       "the-boy-who-flew-too-close"
@@ -1621,6 +1814,9 @@
     ],
     "stitched": [
       "the-boy-who-flew-too-close"
+    ],
+    "stoicism": [
+      "the-roman-emperor-s-reminder"
     ],
     "stop": [
       "the-empty-cup"
@@ -1658,6 +1854,9 @@
     ],
     "struggled": [
       "the-lantern-in-the-storm"
+    ],
+    "struggles": [
+      "the-roman-emperor-s-reminder"
     ],
     "struggling": [
       "the-lantern-in-the-storm"
@@ -1722,6 +1921,7 @@
       "the-chinese-farmer"
     ],
     "that": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -1729,6 +1929,7 @@
       "the-boy-who-flew-too-close"
     ],
     "the": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -1736,6 +1937,7 @@
       "the-boy-who-flew-too-close"
     ],
     "their": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer",
       "the-lantern-in-the-storm"
     ],
@@ -1743,6 +1945,7 @@
       "the-chinese-farmer"
     ],
     "then": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
@@ -1795,17 +1998,20 @@
       "the-chinese-farmer"
     ],
     "time": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
     ],
     "to": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
     "today": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
@@ -1869,6 +2075,7 @@
       "the-empty-cup"
     ],
     "understood": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
@@ -1944,6 +2151,7 @@
       "the-boy-who-flew-too-close"
     ],
     "was": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
       "the-lantern-in-the-storm",
@@ -1974,6 +2182,7 @@
       "the-boy-who-flew-too-close"
     ],
     "way": [
+      "the-roman-emperor-s-reminder",
       "the-chinese-farmer"
     ],
     "we": [
@@ -1992,10 +2201,12 @@
       "the-chinese-farmer"
     ],
     "what": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer"
     ],
     "when": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -2016,6 +2227,7 @@
       "the-lantern-in-the-storm"
     ],
     "who": [
+      "the-roman-emperor-s-reminder",
       "the-lantern-in-the-storm",
       "the-boy-who-flew-too-close"
     ],
@@ -2029,6 +2241,7 @@
       "the-lantern-in-the-storm"
     ],
     "will": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-boy-who-flew-too-close"
     ],
@@ -2085,14 +2298,19 @@
       "the-chinese-farmer"
     ],
     "world": [
+      "the-roman-emperor-s-reminder",
       "the-boy-who-flew-too-close"
     ],
     "would": [
+      "the-roman-emperor-s-reminder",
       "the-lantern-in-the-storm"
     ],
     "write": [
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "wrote": [
+      "the-roman-emperor-s-reminder"
     ],
     "year": [
       "the-bamboo-that-didnt-grow"
@@ -2103,9 +2321,11 @@
       "the-boy-who-flew-too-close"
     ],
     "yet": [
+      "the-roman-emperor-s-reminder",
       "the-bamboo-that-didnt-grow"
     ],
     "you": [
+      "the-roman-emperor-s-reminder",
       "the-empty-cup",
       "the-bamboo-that-didnt-grow",
       "the-chinese-farmer",
@@ -2121,6 +2341,9 @@
       "the-empty-cup",
       "the-chinese-farmer",
       "the-boy-who-flew-too-close"
+    ],
+    "yourself": [
+      "the-roman-emperor-s-reminder"
     ],
     "zen": [
       "the-empty-cup"

@@ -227,12 +227,7 @@ Promise.all([
       const filtered = stories.filter(matches);
       let visibleStories = filtered;
       if (isHomePage) {
-        const latestDate = filtered[0]?.date;
-        if (latestDate) {
-          visibleStories = filtered.filter((story) => story.date === latestDate);
-        } else {
-          visibleStories = filtered.slice(0, 1);
-        }
+        visibleStories = filtered.slice(0, 1);
       }
       renderStories(visibleStories);
       renderSearchResults();
