@@ -132,6 +132,20 @@ def update_index_html(stories, latest):
     index_path.write_text(html, encoding="utf-8")
 
 
+def update_about_html(latest):
+    for relative in ["about/index.html", "about.html"]:
+        about_path = ROOT / relative
+        if not about_path.exists():
+            continue
+        html = about_path.read_text(encoding="utf-8")
+        html = re.sub(
+            r'(<a class="btn primary" href="/story/\?id=)[^"]+(">\s*Read Today\'s Pick\s*</a>)',
+            rf"\1{latest['id']}\2",
+            html
+        )
+        about_path.write_text(html, encoding="utf-8")
+
+
 def update_sitemap(stories, base_url):
     if base_url.endswith("/"):
         base_url = base_url[:-1]
@@ -224,6 +238,7 @@ def main():
 
     update_search_index(stories)
     update_index_html(stories, latest)
+    update_about_html(latest)
 
     sitemap_path = ROOT / "sitemap.xml"
     if args.base_url:
