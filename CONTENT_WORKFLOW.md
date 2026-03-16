@@ -20,7 +20,7 @@ python scripts/add_story.py --title "Start Before You Feel Ready" --tags "motiva
 Optional with domain override:
 
 ```bash
-python scripts/add_story.py --base-url https://your-domain.com
+python scripts/add_story.py --base-url https://lumorareads.online
 ```
 
 ## 2) If you edited stories manually, run automation
@@ -30,7 +30,7 @@ python scripts/update_content.py
 
 Optional (if your domain is not set in `sitemap.xml` yet):
 ```bash
-python scripts/update_content.py --base-url https://your-domain.com
+python scripts/update_content.py --base-url https://lumorareads.online
 ```
 
 ## 3) Quick visual check

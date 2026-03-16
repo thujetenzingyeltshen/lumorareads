@@ -146,8 +146,7 @@ def update_sitemap(stories, base_url):
         "/story/",
         "/submit/",
         "/privacy/",
-        "/thankyou/",
-        "/404.html"
+        "/thankyou/"
     ]
 
     story_pages = [f"/story/?id={story.get('id')}" for story in stories]
@@ -196,8 +195,18 @@ def detect_base_url(sitemap_text):
     if match:
         loc = match.group(1)
         if loc.endswith("/"):
-            return loc[:-1]
-        return loc.rsplit("/", 1)[0]
+            parsed = loc[:-1]
+        else:
+            parsed = loc.rsplit("/", 1)[0]
+        if "your-domain.com" not in parsed:
+            return parsed
+
+    cname_path = ROOT / "CNAME"
+    if cname_path.exists():
+        host = cname_path.read_text(encoding="utf-8").strip()
+        if host:
+            return f"https://{host}"
+
     return "https://your-domain.com"
 
 
