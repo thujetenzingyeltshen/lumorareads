@@ -1,4 +1,4 @@
-const CACHE_NAME = "lumora-v32";
+const CACHE_NAME = "lumora-v36";
 const ASSETS = [
   "./",
   "index.html",
