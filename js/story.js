@@ -55,10 +55,13 @@ fetch("/data/stories.json")
     if (descriptionMeta) {
       descriptionMeta.setAttribute("content", description);
     }
-    const canonicalLink = document.querySelector('link[rel="canonical"]');
-    if (canonicalLink) {
-      canonicalLink.setAttribute("href", storyUrl);
+    let canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (!canonicalLink) {
+      canonicalLink = document.createElement("link");
+      canonicalLink.setAttribute("rel", "canonical");
+      document.head.appendChild(canonicalLink);
     }
+    canonicalLink.setAttribute("href", storyUrl);
 
     storyEl.innerHTML = `
       <div class="story-hero">

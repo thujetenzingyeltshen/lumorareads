@@ -156,7 +156,6 @@ def update_sitemap(stories, base_url):
         "/",
         "/stories/",
         "/about/",
-        "/story/",
         "/privacy/"
     ]
 
