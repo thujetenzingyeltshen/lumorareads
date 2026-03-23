@@ -33,6 +33,7 @@ fetch("/data/stories.json")
   .then(stories => {
     const story = stories.find(s => s.id === id);
     if (!story) {
+      document.title = "Story Not Found | Lumora Reads";
       if (storyEl) {
         storyEl.innerHTML = `
           <h1>Story not found</h1>
@@ -47,6 +48,17 @@ fetch("/data/stories.json")
     const saved = new Set(JSON.parse(localStorage.getItem(savedKey) || "[]"));
     const isSaved = saved.has(story.id);
     const leadParagraph = (story.content && story.content[0]) ? story.content[0] : "";
+    const description = story.summary || story.lesson || leadParagraph || "Read a short Lumora story with a clear lesson and one simple action step.";
+    const storyUrl = `${window.location.origin}/story/?id=${encodeURIComponent(story.id)}`;
+    document.title = `${story.title} | Lumora Reads`;
+    const descriptionMeta = document.querySelector('meta[name="description"]');
+    if (descriptionMeta) {
+      descriptionMeta.setAttribute("content", description);
+    }
+    const canonicalLink = document.querySelector('link[rel="canonical"]');
+    if (canonicalLink) {
+      canonicalLink.setAttribute("href", storyUrl);
+    }
 
     storyEl.innerHTML = `
       <div class="story-hero">
@@ -106,7 +118,7 @@ fetch("/data/stories.json")
     const emailBtn = document.querySelector("[data-share='email']");
     const progressBar = document.getElementById("readingProgress");
 
-    const shareUrl = window.location.href;
+    const shareUrl = storyUrl;
     const encodedUrl = encodeURIComponent(shareUrl);
     const shareText = encodeURIComponent(`"${story.title}" - Lumora`);
 

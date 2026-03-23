@@ -156,11 +156,8 @@ def update_sitemap(stories, base_url):
         "/",
         "/stories/",
         "/about/",
-        "/saved/",
         "/story/",
-        "/submit/",
-        "/privacy/",
-        "/thankyou/"
+        "/privacy/"
     ]
 
     story_pages = [f"/story/?id={story.get('id')}" for story in stories]
