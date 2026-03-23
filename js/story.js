@@ -1,4 +1,7 @@
 const id = new URLSearchParams(window.location.search).get("id");
+if (id) {
+  window.location.replace(`/stories/${encodeURIComponent(id)}/`);
+}
 
 const formatDate = (value) => {
   const parsed = new Date(value);
@@ -38,7 +41,7 @@ fetch("/data/stories.json")
         storyEl.innerHTML = `
           <h1>Story not found</h1>
           <p class="story-meta">Try returning to the stories list.</p>
-          <a class="btn ghost" href="index.html#stories-section">Back to stories</a>
+          <a class="btn ghost" href="/stories/">Back to stories</a>
         `;
       }
       return;
@@ -49,7 +52,7 @@ fetch("/data/stories.json")
     const isSaved = saved.has(story.id);
     const leadParagraph = (story.content && story.content[0]) ? story.content[0] : "";
     const description = story.summary || story.lesson || leadParagraph || "Read a short Lumora story with a clear lesson and one simple action step.";
-    const storyUrl = `${window.location.origin}/story/?id=${encodeURIComponent(story.id)}`;
+    const storyUrl = `${window.location.origin}/stories/${encodeURIComponent(story.id)}/`;
     document.title = `${story.title} | Lumora Reads`;
     const descriptionMeta = document.querySelector('meta[name="description"]');
     if (descriptionMeta) {

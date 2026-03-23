@@ -1,4 +1,4 @@
-const CACHE_NAME = "lumora-v39";
+const CACHE_NAME = "lumora-v41";
 const ASSETS = [
   "./",
   "index.html",
@@ -13,6 +13,7 @@ const ASSETS = [
   "js/submit.js",
   "js/saved.js",
   "js/story.js",
+  "js/story-page.js",
   "js/theme.js",
   "js/sw-register.js",
   "data/stories.json",

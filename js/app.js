@@ -55,6 +55,8 @@ const normalizeAssetPath = (value = "") => {
   return encodeURI(absolute);
 };
 
+const storyUrl = (story) => `/stories/${encodeURIComponent(story.id)}/`;
+
 Promise.all([
   fetch("/data/stories.json").then(res => res.json()),
   loadIndex()
@@ -183,10 +185,10 @@ Promise.all([
           ${renderCardPhoto(s)}
           <div class="card-copy">
             <h2>
-              <a href="/story/?id=${s.id}">${s.title}</a>
+              <a href="${storyUrl(s)}">${s.title}</a>
             </h2>
             <p>${s.summary}</p>
-            <a class="card-link" href="/story/?id=${s.id}">Read story</a>
+            <a class="card-link" href="${storyUrl(s)}">Read story</a>
           </div>
         </div>
       </article>
@@ -215,7 +217,7 @@ Promise.all([
 
       searchResultsEl.innerHTML = ranked.map((story) => {
         return `
-          <a class="search-result-item" href="/story/?id=${story.id}">
+          <a class="search-result-item" href="${storyUrl(story)}">
             <span class="search-result-title">${escapeHtml(story.title)}</span>
           </a>
         `;

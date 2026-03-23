@@ -20,6 +20,8 @@ const estimateReadTime = (story) => {
   return `${minutes} min read`;
 };
 
+const storyUrl = (story) => `/stories/${encodeURIComponent(story.id)}/`;
+
 fetch("/data/stories.json")
   .then(res => res.json())
   .then(stories => {
@@ -47,10 +49,10 @@ fetch("/data/stories.json")
             </div>
           </div>
           <h2>
-            <a href="/story/?id=${s.id}">${s.title}</a>
+            <a href="${storyUrl(s)}">${s.title}</a>
           </h2>
           <p>${s.summary}</p>
-          <a class="card-link" href="/story/?id=${s.id}">Read story</a>
+          <a class="card-link" href="${storyUrl(s)}">Read story</a>
         </article>
       `).join("");
 
