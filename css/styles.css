@@ -1928,20 +1928,6 @@ input:focus-visible,
   display: none;
 }
 
-.story-cover{
-  border-radius: 20px;
-  overflow: hidden;
-  border: 1px solid rgba(216,115,46,0.18);
-  box-shadow: 0 16px 36px rgba(90,60,43,0.12);
-}
-
-.story-cover-image{
-  display: block;
-  width: 100%;
-  max-height: 420px;
-  object-fit: cover;
-}
-
 .story-paragraph{
   margin: 0;
   font-size: 18px;

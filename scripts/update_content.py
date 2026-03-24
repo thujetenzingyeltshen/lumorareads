@@ -73,15 +73,6 @@ def render_story_page(story):
         f'        <p class="story-paragraph">{escape(paragraph)}</p>'
         for paragraph in (story.get("content") or [])[1:]
     )
-    photo = normalize_asset_path(story.get("photo", ""))
-    photo_html = ""
-    if photo:
-        photo_html = "\n".join([
-            '      <div class="story-cover">',
-            f'        <img class="story-cover-image" src="{escape(photo)}" alt="" loading="eager" decoding="async">',
-            '      </div>'
-        ])
-
     return "\n".join([
         '<!DOCTYPE html>',
         '<html lang="en">',
@@ -162,7 +153,6 @@ def render_story_page(story):
         f'          <div class="story-meta">{escape(format_display_date(story.get("date", "")))} &middot; {escape(estimate_read_time(story))}</div>',
         f'          <p class="story-lede">{escape(lead)}</p>',
         '        </div>',
-        photo_html,
         '        <div class="story-content">',
         paragraphs,
         '        </div>',
